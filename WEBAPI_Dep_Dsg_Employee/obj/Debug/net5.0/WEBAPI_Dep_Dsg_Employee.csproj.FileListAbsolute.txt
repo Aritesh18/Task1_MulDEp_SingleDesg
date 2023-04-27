@@ -1,0 +1,258 @@
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.AssemblyInfoInputs.cache
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.AssemblyInfo.cs
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.csproj.CoreCompileInputs.cache
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.MvcApplicationPartsAssemblyInfo.cs
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.MvcApplicationPartsAssemblyInfo.cache
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\appsettings.Development.json
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\appsettings.json
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.exe
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.deps.json
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.runtimeconfig.json
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.runtimeconfig.dev.json
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\ref\WEBAPI_Dep_Dsg_Employee.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.pdb
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Humanizer.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\staticwebassets\WEBAPI_Dep_Dsg_Employee.StaticWebAssets.Manifest.cache
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\staticwebassets\WEBAPI_Dep_Dsg_Employee.StaticWebAssets.xml
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\scopedcss\bundle\WEBAPI_Dep_Dsg_Employee.styles.css
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.RazorTargetAssemblyInfo.cache
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.csproj.CopyComplete
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\ref\WEBAPI_Dep_Dsg_Employee.dll
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.pdb
+D:\Tasks\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.genruntimeconfig.cache
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\appsettings.Development.json
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\appsettings.json
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.exe
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.deps.json
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.runtimeconfig.json
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.runtimeconfig.dev.json
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\ref\WEBAPI_Dep_Dsg_Employee.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.pdb
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Humanizer.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.AssemblyInfoInputs.cache
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.AssemblyInfo.cs
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.csproj.CoreCompileInputs.cache
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.MvcApplicationPartsAssemblyInfo.cs
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.MvcApplicationPartsAssemblyInfo.cache
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\staticwebassets\WEBAPI_Dep_Dsg_Employee.StaticWebAssets.Manifest.cache
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\staticwebassets\WEBAPI_Dep_Dsg_Employee.StaticWebAssets.xml
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\scopedcss\bundle\WEBAPI_Dep_Dsg_Employee.styles.css
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.RazorTargetAssemblyInfo.cache
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.csproj.CopyComplete
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\ref\WEBAPI_Dep_Dsg_Employee.dll
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.pdb
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.genruntimeconfig.cache
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.csprojAssemblyReference.cache
+D:\Cs task\NEW-Task_APIfor empdegdep\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\appsettings.Development.json
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\appsettings.json
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.exe
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.deps.json
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.runtimeconfig.json
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.runtimeconfig.dev.json
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\ref\WEBAPI_Dep_Dsg_Employee.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.pdb
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Humanizer.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.csprojAssemblyReference.cache
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.GeneratedMSBuildEditorConfig.editorconfig
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.AssemblyInfoInputs.cache
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.AssemblyInfo.cs
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.csproj.CoreCompileInputs.cache
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.MvcApplicationPartsAssemblyInfo.cs
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.MvcApplicationPartsAssemblyInfo.cache
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\staticwebassets\WEBAPI_Dep_Dsg_Employee.StaticWebAssets.Manifest.cache
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\staticwebassets\WEBAPI_Dep_Dsg_Employee.StaticWebAssets.xml
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\scopedcss\bundle\WEBAPI_Dep_Dsg_Employee.styles.css
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.RazorTargetAssemblyInfo.cache
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.csproj.CopyComplete
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\ref\WEBAPI_Dep_Dsg_Employee.dll
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.pdb
+D:\git task\Task Frontend\Angular_emp_dep_deg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.genruntimeconfig.cache
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.csprojAssemblyReference.cache
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.GeneratedMSBuildEditorConfig.editorconfig
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.AssemblyInfoInputs.cache
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.AssemblyInfo.cs
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.csproj.CoreCompileInputs.cache
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.MvcApplicationPartsAssemblyInfo.cs
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.MvcApplicationPartsAssemblyInfo.cache
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\ref\WEBAPI_Dep_Dsg_Employee.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.pdb
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.GeneratedMSBuildEditorConfig.editorconfig
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.AssemblyInfoInputs.cache
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.AssemblyInfo.cs
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.csproj.CoreCompileInputs.cache
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.MvcApplicationPartsAssemblyInfo.cs
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.MvcApplicationPartsAssemblyInfo.cache
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\appsettings.Development.json
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\appsettings.json
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.exe
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.deps.json
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.runtimeconfig.json
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.runtimeconfig.dev.json
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\ref\WEBAPI_Dep_Dsg_Employee.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.pdb
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Humanizer.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\staticwebassets\WEBAPI_Dep_Dsg_Employee.StaticWebAssets.Manifest.cache
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\staticwebassets\WEBAPI_Dep_Dsg_Employee.StaticWebAssets.xml
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\scopedcss\bundle\WEBAPI_Dep_Dsg_Employee.styles.css
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.RazorTargetAssemblyInfo.cache
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.csproj.CopyComplete
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\ref\WEBAPI_Dep_Dsg_Employee.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.pdb
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.genruntimeconfig.cache
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.csprojAssemblyReference.cache

@@ -1,0 +1,354 @@
+<h2 class="text-primary text-center m-3">Employee List</h2>
+<div class="col-8">
+  <button
+    class="btn btn-info p-2 m-2"
+    data-toggle="modal"
+    data-target="#newModal"
+  >
+    <i class="fa fa-plus"></i>New Employee
+  </button>
+</div>
+<div class="p-2 m-2">
+  <table class="table table-active table-striped table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>EmployeeName</th>
+        <th>EmployeeAddress</th>
+        <th>EmployeeSalary</th>
+        <th>EmployeeDepartment</th>
+        <th>EmployeeDesignation</th>
+
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of employeeList">
+        <td>{{ employee.employeeName }}</td>
+        <td>{{ employee.employeeAddress }}</td>
+        <td>{{ employee.employeeSalary }}</td>
+        <td>{{ employee.departmentName }}</td>
+        <td>{{ employee.designationName }}</td>
+        <td>
+          <button
+            class="btn btn-info m-2"
+            data-toggle="modal"
+            data-target="#editModal"
+            (click)="EditClick(employee)"
+          >
+            <li class="fa fa-edit"></li>
+          </button>
+          <button
+            class="btn btn-danger"
+            (click)="DeleteClick(employee.employeeId)"
+          >
+            <li class="fa fa-trash"></li>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!-- Save -->
+<div>
+<div class="modal" tabindex="-1" role="dialog" id="newModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-info">
+        <h5 class="text-black text-center">New Employee</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group row">
+          <label for="txtname" class="col-sm-4 form-label">EmployeeName</label>
+          <div class="col-sm-8">
+            <input
+              id="txtname"
+              [(ngModel)]="newEmployee.employeeName"
+              type="text"
+              class="form-control"
+              name="employeeName"
+              placeholder="Enter Name"
+            />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="txtaddress" class="col-sm-4 form-label"
+            >EmployeeAddress</label
+          >
+          <div class="col-sm-8">
+            <input
+              id="txtaddress"
+              [(ngModel)]="newEmployee.employeeAddress"
+              type="text"
+              class="form-control"
+              name="employeeAddress"
+              placeholder="Enter Address"
+            />
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="txtsalary" class="col-sm-4 form-label"
+            >EmployeeSalary</label
+          >
+          <div class="col-sm-8">
+            <input
+              id="txtsalary"
+              type="number"
+              [(ngModel)]="newEmployee.employeeSalary"
+              class="form-control"
+              name="employeeSalary"
+              placeholder="Enter Salary"
+            />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="txtdep" class="col-sm-4 col-form-label">Department</label>
+          <div class="col-sm-8">
+            <select
+              id="txtdsg"
+              name="department"
+              [(ngModel)]="newEmployee.departmentId"
+              placeholder="Select Department"
+              class="selectpicker dropdown form-control"
+              multiple
+            >
+              <option value="">Select dept</option>
+              <option
+                *ngFor="let dept of departmentList"
+                [ngValue]="dept.departmentId"
+              >
+                {{ dept.departmentName }}
+              </option>
+            </select>
+          </div>
+        </div>
+        <!-- <div class="form-group row">
+          <label for="txtdep" class="col-sm-4 col-form-label">Department</label>
+          <div class="col-sm-8">
+            <div style="width: 50%">
+              <ng-multiselect-dropdown
+                id="txtdep"
+                [(ngModel)]="newEmployee.departmentId"
+                [placeholder]="'Select Department'"
+                [settings]="dropdownSettings"
+                [data]="departmentList"
+               
+              >
+              </ng-multiselect-dropdown>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- <div class="form-group row">
+          <label for="txtdsg" class="col-sm-4 col-form-label"
+            >Designation</label
+          >
+          <div class="col-sm-8">
+            <select
+              id="txtdsg"
+              Name="Designation"
+              [(ngModel)]="newEmployee.designationName"
+              placeHolder="Select Designation"
+              class="selectpicker dropdown form-control"
+            >
+              <option value="">Select designation</option>
+              <option
+                *ngFor="let designation of designationList"
+                [ngValue]="designation"
+              >
+                {{ designation.designationName }}
+              </option>
+            </select>
+          </div>
+        </div>
+      </div> -->
+        <!-- -------------------------------------------------------------------------------------------------- -->
+        <div class="form-group row">
+          <label for="txtdsg" class="col-sm-4 col-form-label"
+            >Designation</label
+          >
+          <div class="col-sm-8">
+            <select
+              id="txtdsg"   
+              name="designationName"
+              [(ngModel)]="newEmployee.designationId"
+              placeholder="Select Designation"
+              class="selectpicker dropdown form-control"
+            >
+              <option value="">Select Designation</option>
+              <option
+                *ngFor="let designation of designationList"
+                [ngValue]="designation.designationId"
+              >
+                {{ designation.designationName }}
+              </option>
+            </select>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button
+            type="button"
+            (click)="SaveClick()"
+            data-dismiss="modal"
+            class="btn btn-primary"
+          >
+            Save
+          </button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Edit -->
+  <div class="modal" tabindex="-1" role="dialog" id="editModal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-info">
+          <h5 class="text-black text-center">Edit Employee</h5>
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group row">
+            <label for="txtname" class="col-sm-4 form-label"
+              >EmployeeName</label
+            >
+            <div class="col-sm-8">
+              <input
+                id="txtname"
+                [(ngModel)]="editEmployee.employeeName"
+                type="text"
+                class="form-control"
+                name="employeeName"
+                placeholder="Enter Name"
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="txtaddress" class="col-sm-4 form-label"
+              >EmployeeAddress</label
+            >
+            <div class="col-sm-8">
+              <input
+                id="txtaddress"
+                [(ngModel)]="editEmployee.employeeAddress"
+                type="text"
+                class="form-control"
+                name="employeeAddress"
+                placeholder="Enter Address"
+              />
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="txtsalary" class="col-sm-4 form-label"
+              >EmployeeSalary</label
+            >
+            <div class="col-sm-8">
+              <input
+                id="txtsalary"
+                type="number"
+                [(ngModel)]="editEmployee.employeeSalary"
+                class="form-control"
+                name="employeeSalary"
+                placeholder="Enter Salary"
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="txtdep" class="col-sm-4 col-form-label">Department</label>
+            <div class="col-sm-8">
+              <select
+                id="txtdsg"
+                name="department"
+                [(ngModel)]="editEmployee.departmentId"
+                placeholder="Select Department"
+                class="selectpicker dropdown form-control"
+                multiple
+              >
+                <option value="">Select dept</option>
+                <option
+                  *ngFor="let dept of departmentList"
+                  [ngValue]="dept.departmentId"
+                >
+                  {{ dept.departmentName }}
+                </option>
+              </select>
+            </div>
+          </div>
+          <!-- <div class="form-group row">
+            <label for="txtdep" class="col-sm-4 col-form-label"
+              >Department</label
+            >
+            <div class="col-sm-8">
+              <div style="width: 50%">
+                <ng-multiselect-dropdown
+                  id="txtdep"
+                  [(ngModel)]="newEmployee.departmentId"
+                  [placeholder]="'Select Department'"
+                  [settings]="dropdownSettings"
+                  [data]="departmentList"
+                  [(ngModel)]="newEmployee.departmentId"
+                >
+                </ng-multiselect-dropdown>
+              </div>
+            </div>
+          </div> -->
+          <div class="form-group row">
+            <label for="txtdsg" class="col-sm-4 col-form-label"
+              >Designation</label
+            >
+            <div class="col-sm-8">
+              <select
+                id="txtdsg"
+                Name="Designation"
+                [(ngModel)]="editEmployee.designationId"
+                placeHolder="Select Designation"
+                class="selectpicker dropdown form-control"
+              >
+                <option value="">Select designation</option>
+                <option
+                  *ngFor="let designation of designationList"
+                  [ngValue]="designation.designationId"
+                >
+                  {{ designation.designationName }}
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            (click)="UpdateClick()"
+            data-dismiss="modal"
+            class="btn btn-primary"
+          >
+            Update
+          </button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
