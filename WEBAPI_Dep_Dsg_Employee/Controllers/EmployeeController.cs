@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,19 +13,22 @@ using WEBAPI_Dep_Dsg_Employee.Models;
 namespace WEBAPI_Dep_Dsg_Employee.Controllers
 {
 
-  [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
-  [Route("api/employee")]
+/*  [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
+*/  [Route("api/employee")]
     [ApiController]
     public class EmployeeController : Controller
     {
         private readonly ApplicationDbContext _context;
-        public EmployeeController(ApplicationDbContext context)
-        {
-            _context = context;
-        }
+    private readonly ILogger<EmployeeController> _logger;
+    public EmployeeController(ApplicationDbContext context, ILogger<EmployeeController> logger)
+    {
+      _context = context;
+      _logger = logger;
+    }
     [HttpGet]
         public IActionResult GetEmployee()
         {
+      _logger.LogInformation("GetEmployee() Called");
            
             var employeeFromDb = (from employee in _context.Employees
                                   join EmployeeDepartment in _context.DepartmentEmployees  
@@ -45,14 +49,18 @@ namespace WEBAPI_Dep_Dsg_Employee.Controllers
                                           .Where(departmentEmployee => departmentEmployee.EmployeeId == employee.EmployeeId)
                                           .Select(employee => employee.Department.DepartmentId).ToList(),
                                   });
+     _logger.LogInformation("lINQ Executed");
 
-            // Create an empty list of EmployeeVMModel objects.
-            List<EmployeeVMModel> employeeVMModels = new List<EmployeeVMModel>();
+      // Create an empty list of EmployeeVMModel objects.
+      List<EmployeeVMModel> employeeVMModels = new List<EmployeeVMModel>();
 
             // Iterate over the mapped database results and check for duplicate employee IDs.
+
             foreach (var employee in employeeFromDb)
             {
-                if (employeeVMModels.FirstOrDefault(employeeList => employeeList.EmployeeId == employee.EmployeeId) == null)
+        _logger.LogInformation(" in Foreach");
+
+        if (employeeVMModels.FirstOrDefault(employeeList => employeeList.EmployeeId == employee.EmployeeId) == null)
                 {
                     // Add the EmployeeVMModel object to the employeeVMModels list if it does not exist.
                     employeeVMModels.Add(employee);
@@ -95,19 +103,21 @@ namespace WEBAPI_Dep_Dsg_Employee.Controllers
         [HttpPost]
         public IActionResult SaveEmployee([FromBody] EmployeeVMModel employeeVMModel)
         {
+      _logger.LogInformation("employee detail");
 
-            if (ModelState.IsValid && employeeVMModel != null)
+
+      if (ModelState.IsValid && employeeVMModel != null)
             {
                 var employee = new Employee
                 {
                     EmployeeName = employeeVMModel.EmployeeName,
                     EmployeeAddress = employeeVMModel.EmployeeAddress,
-                   EmployeeSalary = employeeVMModel.EmployeeSalary,
+                   EmployeeSalary = employeeVMModel.EmployeeSalary, 
                     DesignationId = employeeVMModel.DesignationId
                 };
 
                 _context.Employees.Add(employee);
-                _context.SaveChanges();
+                _context.SaveChanges();    
 
                 var departmentEmployees = employeeVMModel.DepartmentId
                     .Select(departmentId => new DepartmentEmployee
@@ -120,11 +130,13 @@ namespace WEBAPI_Dep_Dsg_Employee.Controllers
                 _context.DepartmentEmployees.AddRange(departmentEmployees);
                 _context.SaveChanges();
                 return Ok();
-            }
-            else
+
+      }
+      else
             {
                 return BadRequest();
             }
+
         }
     //[HttpPut]
     //public async Task<IActionResult> UpdateEmployee([FromBody] EmployeeVMModel employeeVMModel)

@@ -1,7 +1,6 @@
+import { Register } from './../register';
 import { EmployeeService } from './../employee.service';
 import { Component } from '@angular/core';
-import { Register } from '../register';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-register',
@@ -10,19 +9,20 @@ import { Router } from '@angular/router';
 })
 export class RegisterComponent {
   register:Register=new Register();
-  constructor(private employeeService:EmployeeService,private router:Router){}
+  constructor(private employeeService:EmployeeService){}
   RegisterClick()
   {
-    alert(this.register.UserName)
     this.employeeService.RegisterEmployee(this.register).subscribe(
-      (response)=>{
-        this.router.navigateByUrl('/register');
-       },
-      (error)=>{
-        console.log(error);
-        alert('wrong user/password');
+      (Response)=>{
+        this.register.employeeName="";
+        this.register.registerEmail="";
+        this.register.registerPassword="";
+      },
+      (Error)=>{
+        console.log(Error);
+        // this.registerErrorMsg= "The password do not match."
       }
-      );
+    );
   }
 
 }

@@ -16,6 +16,7 @@ using WEBAPI_Dep_Dsg_Employee.Data;
 using WEBAPI_Dep_Dsg_Employee;
 using WEBAPI_Dep_Dsg_Employee.ServiceContract;
 using WEBAPI_Dep_Dsg_Employee.Services;
+using Microsoft.Extensions.Logging;
 
 namespace WEBAPI_Dep_Dsg_Employee
 {
@@ -29,6 +30,7 @@ namespace WEBAPI_Dep_Dsg_Employee
     public IConfiguration Configuration { get; }
 
     // This method gets called by the runtime. Use this method to add services to the container.
+
     public void ConfigureServices(IServiceCollection services)
     {
       services.AddEntityFrameworkSqlServer().AddDbContext<ApplicationDbContext>(options => options
@@ -51,10 +53,12 @@ namespace WEBAPI_Dep_Dsg_Employee
 
       services.AddScoped<ApplicationRoleStore>();
       services.AddScoped<ApplicationUserStore>();
-
       services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
-
+      // add controllers service
       services.AddControllers();
+      //add logging service 
+      services.AddLogging();
+
       // services.AddAutoMapper(typeof(DtoMappingProfile));
       services.AddSwaggerGen(c =>
       {
@@ -98,10 +102,9 @@ namespace WEBAPI_Dep_Dsg_Employee
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-    public async void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
-
-      if  (env.IsDevelopment())
+      if (env.IsDevelopment())
       {
         app.UseDeveloperExceptionPage();
         app.UseSwagger();

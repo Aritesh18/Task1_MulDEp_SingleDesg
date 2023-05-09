@@ -1,12 +1,12 @@
 export class Register {
-    UserName:string;
-    UserEmail:string;
-     UserPassword:string;
-    constructor()
-    {
-        this.UserName="";
-        this.UserEmail="";
-        this.UserPassword="";
-        
-    }
+  employeeName: string;
+  registerEmail: string;
+  registerPassword: string;
+  constructor(){
+    this.employeeName='';
+    this.registerEmail='';
+    this.registerPassword='';
+
+    
+  }
 }

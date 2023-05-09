@@ -7,19 +7,19 @@
             <div class="form-group row">
                 <label for="txtusrname"class="col-sm-4">UserName</label>
                 <div class="col-sm-8">
-                    <input type="text" [(ngModel)]="register.UserName"id="txtusrname" placeholder="Enter UserName"class="form-control"/>
+                    <input type="text" [(ngModel)]="register.employeeName"id="txtusrname" placeholder="Enter UserName"class="form-control"/>
                 </div>
     </div>
     <div class="form-group row">
         <label for="txtusremail"class="col-sm-4">UserEmail</label>
         <div class="col-sm-8">
-            <input type="text"[(ngModel)]="register.UserEmail" id="txtusremail" placeholder="Enter UserEmail"class="form-control"/>
+            <input type="email"[(ngModel)]="register.registerEmail" id="txtusremail" placeholder="Enter UserEmail"class="form-control"/>
         </div>
 </div>
 <div class="form-group row">
     <label for="txtusrpwd"class="col-sm-4">UserPassword</label>
     <div class="col-sm-8">
-        <input type="text"[(ngModel)]="register.UserPassword" id="txtusrpwd" placeholder="Enter UserPassword"class="form-control"/>
+        <input type="password"[(ngModel)]="register.registerPassword" id="txtusrpwd" placeholder="Enter UserPassword"class="form-control"/>
     </div>
 </div>
 <div class="card-footer text-muted bg-info">

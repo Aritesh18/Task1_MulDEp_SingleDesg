@@ -29,7 +29,7 @@ export class EmployeeService {
       employee
     );
   }
-  RegisterEmployee(register:Register):Observable<any>{
+  RegisterEmployee(register:Register):Observable<Register>{
     return this.httpClient.post<Register>('https://localhost:44386/api/user/Register',register
     );
 

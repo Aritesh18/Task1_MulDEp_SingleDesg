@@ -255,4 +255,14 @@ D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI
 D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\ref\WEBAPI_Dep_Dsg_Employee.dll
 D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.pdb
 D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.genruntimeconfig.cache
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\NLog.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
 D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\obj\Debug\net5.0\WEBAPI_Dep_Dsg_Employee.csprojAssemblyReference.cache
+D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\bin\Debug\net5.0\nlog.config
