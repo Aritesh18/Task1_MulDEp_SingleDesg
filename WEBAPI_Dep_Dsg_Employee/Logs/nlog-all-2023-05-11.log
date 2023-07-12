@@ -1,0 +1,409 @@
+2023-05-11 11:46:32.5993|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting starting
+2023-05-11 11:48:42.1725|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting starting
+2023-05-11 11:48:42.4046|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-11 11:48:42.4046|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-01f11bd1-cd21-44f3-8ab6-79b45bf34a87.xml'.
+2023-05-11 11:48:42.4046|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-816f2125-9f44-4d66-822a-d6d46553a992.xml'.
+2023-05-11 11:48:42.4211|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {01f11bd1-cd21-44f3-8ab6-79b45bf34a87}.
+2023-05-11 11:48:42.4211|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {816f2125-9f44-4d66-822a-d6d46553a992}.
+2023-05-11 11:48:42.4354|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {816f2125-9f44-4d66-822a-d6d46553a992} with expiration date 2023-06-06 13:09:05Z as default key.
+2023-05-11 11:48:42.4676|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-11 11:48:42.4676|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-05-11 11:48:42.4676|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-11 11:48:42.4676|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-05-11 11:48:42.4676|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-05-11 11:48:42.4676|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {816f2125-9f44-4d66-822a-d6d46553a992} as the default key.
+2023-05-11 11:48:42.4676|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {816f2125-9f44-4d66-822a-d6d46553a992} was loaded during application startup.
+2023-05-11 11:48:42.4802|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting started
+2023-05-11 11:48:42.4802|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WEBAPI_Dep_Dsg_Employee
+2023-05-11 11:48:42.5292|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/index.html - -
+2023-05-11 11:48:42.5292|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-05-11 11:48:42.5292|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-11 11:48:42.6175|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686523426603009" disconnecting.
+2023-05-11 11:48:42.6207|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/index.html - - - 200 - text/html;charset=utf-8 91.9344ms
+2023-05-11 11:48:42.7437|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - -
+2023-05-11 11:48:42.7437|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-11 11:48:42.8415|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686489066864642" disconnecting.
+2023-05-11 11:48:42.8415|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 97.8075ms
+2023-05-11 11:49:13.4036|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting starting
+2023-05-11 11:49:13.6035|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-11 11:49:13.6090|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-01f11bd1-cd21-44f3-8ab6-79b45bf34a87.xml'.
+2023-05-11 11:49:13.6090|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-816f2125-9f44-4d66-822a-d6d46553a992.xml'.
+2023-05-11 11:49:13.6090|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {01f11bd1-cd21-44f3-8ab6-79b45bf34a87}.
+2023-05-11 11:49:13.6090|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {816f2125-9f44-4d66-822a-d6d46553a992}.
+2023-05-11 11:49:13.6206|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {816f2125-9f44-4d66-822a-d6d46553a992} with expiration date 2023-06-06 13:09:05Z as default key.
+2023-05-11 11:49:13.6395|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-11 11:49:13.6395|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-05-11 11:49:13.6395|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-11 11:49:13.6395|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-05-11 11:49:13.6395|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-05-11 11:49:13.6395|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {816f2125-9f44-4d66-822a-d6d46553a992} as the default key.
+2023-05-11 11:49:13.6395|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {816f2125-9f44-4d66-822a-d6d46553a992} was loaded during application startup.
+2023-05-11 11:49:13.6510|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting started
+2023-05-11 11:49:13.6510|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WEBAPI_Dep_Dsg_Employee
+2023-05-11 11:49:13.6906|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/index.html - -
+2023-05-11 11:49:13.6906|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-05-11 11:49:13.6906|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-11 11:49:13.7738|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/index.html - - - 200 - text/html;charset=utf-8 83.9428ms
+2023-05-11 11:49:13.8226|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686489066864644" disconnecting.
+2023-05-11 11:49:13.9006|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - -
+2023-05-11 11:49:13.9007|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-11 11:49:14.1267|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18302628886439002114" disconnecting.
+2023-05-11 11:49:14.1267|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 226.2959ms
+2023-05-11 11:49:24.5522|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:44386/api/department application/json 308
+2023-05-11 11:49:24.5522|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-11 11:49:24.5522|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported
+2023-05-11 11:49:24.5573|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:44386'.
+2023-05-11 11:49:24.5573|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2023-05-11 11:49:24.6322|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/department'
+2023-05-11 11:49:24.6377|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee)' with route pattern 'api/department' is valid for the request path '/api/department'
+2023-05-11 11:49:24.6377|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee)'
+2023-05-11 11:49:24.8096|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2023-05-11 11:49:24.8096|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee)'
+2023-05-11 11:49:24.8237|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-05-11 11:49:24.8667|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SaveDepartment", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SaveDepartment(WEBAPI_Dep_Dsg_Employee.Models.Department) on controller WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController (WEBAPI_Dep_Dsg_Employee).
+2023-05-11 11:49:24.8667|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2023-05-11 11:49:24.8667|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2023-05-11 11:49:24.8667|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-05-11 11:49:24.8667|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2023-05-11 11:49:24.8667|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-05-11 11:49:24.8692|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController (WEBAPI_Dep_Dsg_Employee)
+2023-05-11 11:49:24.9671|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-11 11:49:24.9802|WARN|Microsoft.EntityFrameworkCore.Infrastructure|'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-05-11 11:49:25.0405|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController (WEBAPI_Dep_Dsg_Employee)
+2023-05-11 11:49:25.0486|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'department' of type 'WEBAPI_Dep_Dsg_Employee.Models.Department' ...
+2023-05-11 11:49:25.0486|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'department' of type 'WEBAPI_Dep_Dsg_Employee.Models.Department' using the name '' in request data ...
+2023-05-11 11:49:25.0486|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-05-11 11:49:25.0743|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'WEBAPI_Dep_Dsg_Employee.Models.Department'
+2023-05-11 11:49:25.0743|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'department' of type 'WEBAPI_Dep_Dsg_Employee.Models.Department'.
+2023-05-11 11:49:25.0743|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'department' of type 'WEBAPI_Dep_Dsg_Employee.Models.Department'.
+2023-05-11 11:49:25.0743|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'department' of type 'WEBAPI_Dep_Dsg_Employee.Models.Department' ...
+2023-05-11 11:49:25.0989|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'department' of type 'WEBAPI_Dep_Dsg_Employee.Models.Department'.
+2023-05-11 11:49:25.0989|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-11 11:49:25.0989|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-11 11:49:25.0989|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-11 11:49:25.0989|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-11 11:49:25.1084|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee) - Validation state: Valid
+2023-05-11 11:49:25.1084|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee) with arguments (WEBAPI_Dep_Dsg_Employee.Models.Department)
+2023-05-11 11:50:12.0980|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2023-05-11 11:50:12.0980|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2023-05-11 11:50:12.0980|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'EmployeeId'} was not created on entity type 'DepartmentEmployee' as the properties are already covered by the index {'EmployeeId', 'DepartmentId'}.
+2023-05-11 11:50:12.1557|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property '"Discriminator"."IdentityRole"' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-05-11 11:50:12.2369|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 5.0.17 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=WEBAPI_Dep_Dsg_Employee 
+2023-05-11 11:50:16.9696|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"ApplicationDbContext"' generated a temporary value for the property '"DepartmentId"."Department"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-11 11:50:16.9990|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Department' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-11 11:50:17.0224|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'DepartmentEmployee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-11 11:50:17.0224|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"ApplicationDbContext"' generated a temporary value for the property '"EmployeeId"."Employee"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-11 11:50:18.9478|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-11 11:50:18.9478|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-11 11:50:18.9478|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-11 11:50:18.9478|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-11 11:50:18.9478|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee) in 54082.4062ms
+2023-05-11 11:50:18.9478|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee)'
+2023-05-11 11:50:19.0359|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.Collections.Generic.Dictionary`2.FindValue(TKey key)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityReferenceMap.TryGet(Object entity, IEntityType entityType, InternalEntityEntry& entry, Boolean throwOnNonUniqueness)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.TryGetEntry(Object entity, IEntityType entityType, Boolean throwOnTypeMismatch)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.InitialFixup(InternalEntityEntry entry, Boolean fromQuery)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.StateChanged(InternalEntityEntry entry, EntityState oldState, Boolean fromQuery)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.StateChanged(InternalEntityEntry entry, EntityState oldState, Boolean fromQuery)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.FireStateChanged(EntityState oldState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment(Department department) in D:\git task\Task1EmployeeDepDesg\WEBAPI_Dep_Dsg_Employee\Controllers\DepartmentController.cs:line 48
+   at lambda_method3(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-05-11 11:50:19.0519|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18302628886439002116" disconnecting.
+2023-05-11 11:50:19.0519|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'ApplicationDbContext' disposed.
+2023-05-11 11:50:19.0519|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:44386/api/department application/json 308 - 500 - text/plain 54503.7965ms
+2023-05-11 11:51:05.0472|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting starting
+2023-05-11 11:51:05.3528|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-11 11:51:05.3582|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-01f11bd1-cd21-44f3-8ab6-79b45bf34a87.xml'.
+2023-05-11 11:51:05.3582|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-816f2125-9f44-4d66-822a-d6d46553a992.xml'.
+2023-05-11 11:51:05.3582|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {01f11bd1-cd21-44f3-8ab6-79b45bf34a87}.
+2023-05-11 11:51:05.3582|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {816f2125-9f44-4d66-822a-d6d46553a992}.
+2023-05-11 11:51:05.3696|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {816f2125-9f44-4d66-822a-d6d46553a992} with expiration date 2023-06-06 13:09:05Z as default key.
+2023-05-11 11:51:05.3910|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-11 11:51:05.3910|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-05-11 11:51:05.3910|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-11 11:51:05.3910|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-05-11 11:51:05.3910|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-05-11 11:51:05.4032|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {816f2125-9f44-4d66-822a-d6d46553a992} as the default key.
+2023-05-11 11:51:05.4032|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {816f2125-9f44-4d66-822a-d6d46553a992} was loaded during application startup.
+2023-05-11 11:51:05.4032|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting started
+2023-05-11 11:51:05.4032|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WEBAPI_Dep_Dsg_Employee
+2023-05-11 11:51:05.4410|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/index.html - -
+2023-05-11 11:51:05.4410|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-05-11 11:51:05.4410|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-11 11:51:05.5071|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686523426603011" disconnecting.
+2023-05-11 11:51:05.5102|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/index.html - - - 200 - text/html;charset=utf-8 69.8000ms
+2023-05-11 11:51:05.5794|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - -
+2023-05-11 11:51:05.5794|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-11 11:51:05.6750|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686484771897345" disconnecting.
+2023-05-11 11:51:05.6750|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 95.6567ms
+2023-05-11 11:51:33.5870|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:44386/api/department application/json 24
+2023-05-11 11:51:33.5870|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-11 11:51:33.5893|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported
+2023-05-11 11:51:33.5893|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:44386'.
+2023-05-11 11:51:33.5893|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2023-05-11 11:51:33.6785|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/department'
+2023-05-11 11:51:33.6984|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee)' with route pattern 'api/department' is valid for the request path '/api/department'
+2023-05-11 11:51:33.6984|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee)'
+2023-05-11 11:51:33.8776|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2023-05-11 11:51:33.8776|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee)'
+2023-05-11 11:51:33.8915|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-05-11 11:51:33.9328|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SaveDepartment", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SaveDepartment(WEBAPI_Dep_Dsg_Employee.Models.Department) on controller WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController (WEBAPI_Dep_Dsg_Employee).
+2023-05-11 11:51:33.9328|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2023-05-11 11:51:33.9328|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2023-05-11 11:51:33.9328|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-05-11 11:51:33.9328|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2023-05-11 11:51:33.9328|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-05-11 11:51:33.9328|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController (WEBAPI_Dep_Dsg_Employee)
+2023-05-11 11:51:34.0210|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-11 11:51:34.0368|WARN|Microsoft.EntityFrameworkCore.Infrastructure|'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-05-11 11:51:34.0952|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController (WEBAPI_Dep_Dsg_Employee)
+2023-05-11 11:51:34.1047|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'department' of type 'WEBAPI_Dep_Dsg_Employee.Models.Department' ...
+2023-05-11 11:51:34.1047|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'department' of type 'WEBAPI_Dep_Dsg_Employee.Models.Department' using the name '' in request data ...
+2023-05-11 11:51:34.1047|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-05-11 11:51:34.1204|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'WEBAPI_Dep_Dsg_Employee.Models.Department'
+2023-05-11 11:51:34.1204|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'department' of type 'WEBAPI_Dep_Dsg_Employee.Models.Department'.
+2023-05-11 11:51:34.1204|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'department' of type 'WEBAPI_Dep_Dsg_Employee.Models.Department'.
+2023-05-11 11:51:34.1204|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'department' of type 'WEBAPI_Dep_Dsg_Employee.Models.Department' ...
+2023-05-11 11:51:34.1354|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'department' of type 'WEBAPI_Dep_Dsg_Employee.Models.Department'.
+2023-05-11 11:51:34.1354|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-11 11:51:34.1354|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-11 11:51:34.1354|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-11 11:51:34.1354|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-11 11:51:34.1354|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee) - Validation state: Valid
+2023-05-11 11:51:34.1354|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee) with arguments (WEBAPI_Dep_Dsg_Employee.Models.Department)
+2023-05-11 11:51:58.3161|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2023-05-11 11:51:58.3161|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2023-05-11 11:51:58.3161|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'EmployeeId'} was not created on entity type 'DepartmentEmployee' as the properties are already covered by the index {'EmployeeId', 'DepartmentId'}.
+2023-05-11 11:51:58.3686|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property '"Discriminator"."IdentityRole"' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-05-11 11:51:58.4545|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 5.0.17 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=WEBAPI_Dep_Dsg_Employee 
+2023-05-11 11:51:58.4733|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"ApplicationDbContext"' generated a temporary value for the property '"DepartmentId"."Department"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-11 11:51:58.5028|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Department' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-11 11:52:00.6109|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges starting for 'ApplicationDbContext'.
+2023-05-11 11:52:00.6109|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges starting for 'ApplicationDbContext'.
+2023-05-11 11:52:00.6249|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges completed for 'ApplicationDbContext'.
+2023-05-11 11:52:00.7042|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-11 11:52:00.9379|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-11 11:52:00.9379|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Beginning transaction with isolation level 'Unspecified'.
+2023-05-11 11:52:00.9379|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Began transaction with isolation level 'ReadCommitted'.
+2023-05-11 11:52:00.9767|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-05-11 11:52:00.9817|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (3ms).
+2023-05-11 11:52:00.9817|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Departments] ([DepartmentName])
+VALUES (@p0);
+SELECT [DepartmentId]
+FROM [Departments]
+WHERE @@ROWCOUNT = 1 AND [DepartmentId] = scope_identity();
+2023-05-11 11:52:01.0423|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (55ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Departments] ([DepartmentName])
+VALUES (@p0);
+SELECT [DepartmentId]
+FROM [Departments]
+WHERE @@ROWCOUNT = 1 AND [DepartmentId] = scope_identity();
+2023-05-11 11:52:01.0423|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'Department.DepartmentId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-05-11 11:52:01.0608|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2023-05-11 11:52:01.0608|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committing transaction.
+2023-05-11 11:52:01.0608|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committed transaction.
+2023-05-11 11:52:01.0608|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-11 11:52:01.0608|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-11 11:52:01.0608|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Disposing transaction.
+2023-05-11 11:52:01.0608|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Department' tracked by 'ApplicationDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-11 11:52:01.0731|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2023-05-11 11:52:04.0872|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee), returned result Microsoft.AspNetCore.Mvc.OkResult in 29938.3088ms.
+2023-05-11 11:52:04.0872|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-11 11:52:04.0872|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-11 11:52:04.0872|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-11 11:52:04.0872|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-11 11:52:04.0872|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-11 11:52:04.0872|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-11 11:52:04.0872|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkResult.
+2023-05-11 11:52:04.0913|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2023-05-11 11:52:04.0913|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkResult.
+2023-05-11 11:52:04.0913|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-11 11:52:04.0913|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-11 11:52:04.0913|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee) in 30156.4884ms
+2023-05-11 11:52:04.0913|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee)'
+2023-05-11 11:52:04.0913|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18230571300991008769" disconnecting.
+2023-05-11 11:52:04.0913|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'ApplicationDbContext' disposed.
+2023-05-11 11:52:04.0913|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:44386/api/department application/json 24 - 200 - - 30510.4343ms
+2023-05-11 11:55:06.7773|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:44386/api/department application/json 24
+2023-05-11 11:55:06.7773|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-11 11:55:06.7773|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported
+2023-05-11 11:55:06.7773|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:44386'.
+2023-05-11 11:55:06.7773|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2023-05-11 11:55:06.7773|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/department'
+2023-05-11 11:55:06.7773|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee)' with route pattern 'api/department' is valid for the request path '/api/department'
+2023-05-11 11:55:06.7773|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee)'
+2023-05-11 11:55:06.7953|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2023-05-11 11:55:06.7953|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee)'
+2023-05-11 11:55:06.7953|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SaveDepartment", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SaveDepartment(WEBAPI_Dep_Dsg_Employee.Models.Department) on controller WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController (WEBAPI_Dep_Dsg_Employee).
+2023-05-11 11:55:06.7953|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2023-05-11 11:55:06.7953|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2023-05-11 11:55:06.7953|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-05-11 11:55:06.7953|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2023-05-11 11:55:06.7953|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-05-11 11:55:06.7953|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController (WEBAPI_Dep_Dsg_Employee)
+2023-05-11 11:55:06.8550|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController (WEBAPI_Dep_Dsg_Employee)
+2023-05-11 11:55:06.8550|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'department' of type 'WEBAPI_Dep_Dsg_Employee.Models.Department' ...
+2023-05-11 11:55:06.8550|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'department' of type 'WEBAPI_Dep_Dsg_Employee.Models.Department' using the name '' in request data ...
+2023-05-11 11:55:06.8550|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-05-11 11:55:06.8550|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'WEBAPI_Dep_Dsg_Employee.Models.Department'
+2023-05-11 11:55:06.8550|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'department' of type 'WEBAPI_Dep_Dsg_Employee.Models.Department'.
+2023-05-11 11:55:06.8550|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'department' of type 'WEBAPI_Dep_Dsg_Employee.Models.Department'.
+2023-05-11 11:55:06.8550|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'department' of type 'WEBAPI_Dep_Dsg_Employee.Models.Department' ...
+2023-05-11 11:55:06.8550|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'department' of type 'WEBAPI_Dep_Dsg_Employee.Models.Department'.
+2023-05-11 11:55:06.8550|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-11 11:55:06.8550|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-11 11:55:06.8550|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-11 11:55:06.8550|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-11 11:55:06.8550|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee) - Validation state: Valid
+2023-05-11 11:55:06.8550|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.SaveDepartment (WEBAPI_Dep_Dsg_Employee) with arguments (WEBAPI_Dep_Dsg_Employee.Models.Department)
+2023-05-11 12:57:36.2818|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting starting
+2023-05-11 12:57:36.5320|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-11 12:57:36.5320|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-01f11bd1-cd21-44f3-8ab6-79b45bf34a87.xml'.
+2023-05-11 12:57:36.5320|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-816f2125-9f44-4d66-822a-d6d46553a992.xml'.
+2023-05-11 12:57:36.5437|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {01f11bd1-cd21-44f3-8ab6-79b45bf34a87}.
+2023-05-11 12:57:36.5437|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {816f2125-9f44-4d66-822a-d6d46553a992}.
+2023-05-11 12:57:36.5437|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {816f2125-9f44-4d66-822a-d6d46553a992} with expiration date 2023-06-06 13:09:05Z as default key.
+2023-05-11 12:57:36.5773|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-11 12:57:36.5773|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-05-11 12:57:36.5773|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-11 12:57:36.5773|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-05-11 12:57:36.5773|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-05-11 12:57:36.5773|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {816f2125-9f44-4d66-822a-d6d46553a992} as the default key.
+2023-05-11 12:57:36.5773|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {816f2125-9f44-4d66-822a-d6d46553a992} was loaded during application startup.
+2023-05-11 12:57:36.5891|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting started
+2023-05-11 12:57:36.5891|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WEBAPI_Dep_Dsg_Employee
+2023-05-11 12:57:36.6391|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/index.html - -
+2023-05-11 12:57:36.6391|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-05-11 12:57:36.6391|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-11 12:57:36.7361|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686497656799233" disconnecting.
+2023-05-11 12:57:36.7361|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/index.html - - - 200 - text/html;charset=utf-8 104.7855ms
+2023-05-11 12:57:36.8086|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - -
+2023-05-11 12:57:36.8086|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-11 12:57:36.8757|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686480476930053" disconnecting.
+2023-05-11 12:57:36.8757|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 67.0738ms
+2023-05-11 12:57:50.9722|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/api/designation - -
+2023-05-11 12:57:50.9722|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-11 12:57:50.9722|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-05-11 12:57:51.0412|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/designation'
+2023-05-11 12:57:51.0491|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.DesignationController.GetDesignation (WEBAPI_Dep_Dsg_Employee)' with route pattern 'api/designation' is valid for the request path '/api/designation'
+2023-05-11 12:57:51.0491|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.DesignationController.GetDesignation (WEBAPI_Dep_Dsg_Employee)'
+2023-05-11 12:57:51.1924|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2023-05-11 12:57:51.2031|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2023-05-11 12:57:51.2031|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2023-05-11 12:57:51.2138|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686484771897347" disconnecting.
+2023-05-11 12:57:51.2138|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/api/designation - - - 401 - - 241.6473ms
+2023-05-11 12:57:57.8255|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/api/department - -
+2023-05-11 12:57:57.8255|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-11 12:57:57.8255|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-05-11 12:57:57.8255|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/department'
+2023-05-11 12:57:57.8255|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.GetDepartment (WEBAPI_Dep_Dsg_Employee)' with route pattern 'api/department' is valid for the request path '/api/department'
+2023-05-11 12:57:57.8255|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.GetDepartment (WEBAPI_Dep_Dsg_Employee)'
+2023-05-11 12:57:57.8255|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2023-05-11 12:57:57.8255|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.GetDepartment (WEBAPI_Dep_Dsg_Employee)'
+2023-05-11 12:57:57.8430|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-05-11 12:57:57.8735|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetDepartment", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetDepartment() on controller WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController (WEBAPI_Dep_Dsg_Employee).
+2023-05-11 12:57:57.8735|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2023-05-11 12:57:57.8735|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2023-05-11 12:57:57.8735|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-05-11 12:57:57.8735|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2023-05-11 12:57:57.8735|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-05-11 12:57:57.8735|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController (WEBAPI_Dep_Dsg_Employee)
+2023-05-11 12:57:57.9867|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-11 12:57:58.0020|WARN|Microsoft.EntityFrameworkCore.Infrastructure|'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-05-11 12:57:58.0512|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController (WEBAPI_Dep_Dsg_Employee)
+2023-05-11 12:57:58.0512|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-11 12:57:58.0512|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-11 12:57:58.0512|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-11 12:57:58.0512|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-11 12:57:58.0592|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.GetDepartment (WEBAPI_Dep_Dsg_Employee) - Validation state: Valid
+2023-05-11 12:57:59.1002|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2023-05-11 12:57:59.1002|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2023-05-11 12:57:59.1002|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'EmployeeId'} was not created on entity type 'DepartmentEmployee' as the properties are already covered by the index {'EmployeeId', 'DepartmentId'}.
+2023-05-11 12:57:59.2709|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property '"Discriminator"."IdentityRole"' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-05-11 12:57:59.5260|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 5.0.17 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=WEBAPI_Dep_Dsg_Employee 
+2023-05-11 12:57:59.5260|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.GetDepartment (WEBAPI_Dep_Dsg_Employee), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1470.4952ms.
+2023-05-11 12:57:59.5260|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-11 12:57:59.5260|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-11 12:57:59.5260|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-11 12:57:59.5260|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-11 12:57:59.5260|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-11 12:57:59.5260|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-11 12:57:59.5260|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-05-11 12:57:59.5260|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Buffering IAsyncEnumerable instance of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[WEBAPI_Dep_Dsg_Employee.Models.Department, WEBAPI_Dep_Dsg_Employee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-11 12:57:59.6523|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Department>()
+    .Select(Department => new Department{ 
+        DepartmentId = Department.DepartmentId, 
+        DepartmentName = Department.DepartmentName 
+    }
+    )'
+2023-05-11 12:57:59.9241|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Department>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            DepartmentId -> 0
+            DepartmentName -> 1
+        SELECT d.DepartmentId, d.DepartmentName
+        FROM Departments AS d), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Department>, 
+    WEBAPI_Dep_Dsg_Employee.Data.ApplicationDbContext, 
+    False, 
+    False
+)'
+2023-05-11 12:57:59.9874|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-05-11 12:58:00.0625|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (71ms).
+2023-05-11 12:58:00.0625|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-11 12:58:00.5158|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-11 12:58:00.5285|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[DepartmentId], [d].[DepartmentName]
+FROM [Departments] AS [d]
+2023-05-11 12:58:00.5926|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[DepartmentId], [d].[DepartmentName]
+FROM [Departments] AS [d]
+2023-05-11 12:58:00.6319|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2023-05-11 12:58:00.6397|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-11 12:58:00.6397|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-11 12:58:00.6511|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-05-11 12:58:00.6511|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2023-05-11 12:58:00.6511|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-05-11 12:58:00.6511|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2023-05-11 12:58:00.6511|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-05-11 12:58:00.6511|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Dep_Dsg_Employee.Models.Department, WEBAPI_Dep_Dsg_Employee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-11 12:58:00.6748|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-05-11 12:58:00.6748|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-11 12:58:00.6748|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-11 12:58:00.6825|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.GetDepartment (WEBAPI_Dep_Dsg_Employee) in 2798.835ms
+2023-05-11 12:58:00.6825|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.DepartmentController.GetDepartment (WEBAPI_Dep_Dsg_Employee)'
+2023-05-11 12:58:00.6825|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686484771897349" disconnecting.
+2023-05-11 12:58:00.6825|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'ApplicationDbContext' disposed.
+2023-05-11 12:58:00.6825|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/api/department - - - 200 - application/json;+charset=utf-8 2864.5854ms

@@ -31,8 +31,8 @@ namespace WEBAPI_Dep_Dsg_Employee.Controllers
       _logger.LogInformation("GetEmployee() Called");
            
             var employeeFromDb = (from employee in _context.Employees
-                                  join EmployeeDepartment in _context.DepartmentEmployees  
-                                  on employee.EmployeeId equals EmployeeDepartment.EmployeeId 
+                                  //join EmployeeDepartment in _context.DepartmentEmployees  
+                                  //on employee.EmployeeId equals EmployeeDepartment.EmployeeId 
                                   select new EmployeeVMModel
                                   {
                                       // Map the database results to an EmployeeVMModel ViewModel.
@@ -201,7 +201,7 @@ namespace WEBAPI_Dep_Dsg_Employee.Controllers
         Employee employee = new Employee()
                 {
                   EmployeeId= employeeVMModel.EmployeeId,
-                    EmployeeName = employeeVMModel.EmployeeName,
+                    EmployeeName = employeeVMModel.EmployeeName,  
                     EmployeeAddress = employeeVMModel.EmployeeAddress,
                     EmployeeSalary = employeeVMModel.EmployeeSalary, 
                    DesignationId = employeeVMModel.DesignationId,
@@ -225,7 +225,7 @@ namespace WEBAPI_Dep_Dsg_Employee.Controllers
                     }
                 }
                 _context.DepartmentEmployees.AddRange(departmentEmployees);
-                _context.RemoveRange(_context.DepartmentEmployees.Where(ed => ed.EmployeeId == employee.EmployeeId && !employeeVMModel.DepartmentId.Contains(ed.DepartmentId)));
+                _context.RemoveRange(_context.DepartmentEmployees.Where(  ed  => ed.EmployeeId == employee.EmployeeId && !employeeVMModel.DepartmentId.Contains(ed.DepartmentId)));
 
                 await _context.SaveChangesAsync();
                 return Ok();

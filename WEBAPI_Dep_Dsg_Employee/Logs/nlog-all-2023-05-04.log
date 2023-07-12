@@ -1,0 +1,965 @@
+2023-05-04 11:02:18.3737|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting starting
+2023-05-04 11:02:18.7648|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-04 11:02:18.7832|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-01f11bd1-cd21-44f3-8ab6-79b45bf34a87.xml'.
+2023-05-04 11:02:18.7880|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-816f2125-9f44-4d66-822a-d6d46553a992.xml'.
+2023-05-04 11:02:18.7880|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {01f11bd1-cd21-44f3-8ab6-79b45bf34a87}.
+2023-05-04 11:02:18.8083|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {816f2125-9f44-4d66-822a-d6d46553a992}.
+2023-05-04 11:02:18.8212|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {816f2125-9f44-4d66-822a-d6d46553a992} with expiration date 2023-06-06 13:09:05Z as default key.
+2023-05-04 11:02:18.8661|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-04 11:02:18.8661|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-05-04 11:02:18.8661|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-04 11:02:18.8661|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-05-04 11:02:18.8852|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-05-04 11:02:18.8852|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {816f2125-9f44-4d66-822a-d6d46553a992} as the default key.
+2023-05-04 11:02:18.8852|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {816f2125-9f44-4d66-822a-d6d46553a992} was loaded during application startup.
+2023-05-04 11:02:18.8954|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting started
+2023-05-04 11:02:18.8954|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WEBAPI_Dep_Dsg_Employee
+2023-05-04 11:02:18.9700|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/index.html - -
+2023-05-04 11:02:18.9700|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-05-04 11:02:18.9700|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-04 11:02:19.2082|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686484771897504" disconnecting.
+2023-05-04 11:02:19.2397|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/index.html - - - 200 - text/html;charset=utf-8 271.9959ms
+2023-05-04 11:02:19.2935|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - -
+2023-05-04 11:02:19.2935|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-04 11:02:19.4465|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18302628920798740553" disconnecting.
+2023-05-04 11:02:19.4465|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 153.2147ms
+2023-05-04 11:02:28.8867|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/api/employee - -
+2023-05-04 11:02:28.8867|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-04 11:02:28.8867|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-05-04 11:02:28.9503|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/employee'
+2023-05-04 11:02:28.9594|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)' with route pattern 'api/employee' is valid for the request path '/api/employee'
+2023-05-04 11:02:28.9594|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)'
+2023-05-04 11:02:29.1050|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2023-05-04 11:02:29.1050|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)'
+2023-05-04 11:02:29.1259|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-05-04 11:02:29.1658|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployee() on controller WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController (WEBAPI_Dep_Dsg_Employee).
+2023-05-04 11:02:29.1658|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2023-05-04 11:02:29.1658|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2023-05-04 11:02:29.1658|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-05-04 11:02:29.1658|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2023-05-04 11:02:29.1658|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-05-04 11:02:29.1658|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController (WEBAPI_Dep_Dsg_Employee)
+2023-05-04 11:02:29.2648|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-04 11:02:29.2801|WARN|Microsoft.EntityFrameworkCore.Infrastructure|'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-05-04 11:02:29.3345|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController (WEBAPI_Dep_Dsg_Employee)
+2023-05-04 11:02:29.3345|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2023-05-04 11:02:29.3345|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 11:02:29.3345|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 11:02:29.3345|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 11:02:29.3345|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 11:02:29.3345|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee) - Validation state: Valid
+2023-05-04 11:02:31.6213|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController|GetEmployee() Called
+2023-05-04 11:02:32.4801|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2023-05-04 11:02:32.4801|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2023-05-04 11:02:32.4801|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'EmployeeId'} was not created on entity type 'DepartmentEmployee' as the properties are already covered by the index {'EmployeeId', 'DepartmentId'}.
+2023-05-04 11:02:32.7692|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property '"Discriminator"."IdentityRole"' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-05-04 11:02:33.0290|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 5.0.17 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=WEBAPI_Dep_Dsg_Employee 
+2023-05-04 11:02:35.1486|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController|lINQ Executed
+2023-05-04 11:02:35.1932|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Employee>()
+    .Join(
+        inner: DbSet<DepartmentEmployee>(), 
+        outerKeySelector: employee => employee.EmployeeId, 
+        innerKeySelector: EmployeeDepartment => EmployeeDepartment.EmployeeId, 
+        resultSelector: (employee, EmployeeDepartment) => new EmployeeVMModel{ 
+            EmployeeId = employee.EmployeeId, 
+            EmployeeName = employee.EmployeeName, 
+            EmployeeAddress = employee.EmployeeAddress, 
+            EmployeeSalary = employee.EmployeeSalary, 
+            DesignationName = employee.Designation.DesignationName, 
+            DesignationId = employee.DesignationId, 
+            DepartmentName = DbSet<DepartmentEmployee>()
+                .Where(departmentEmployee => departmentEmployee.EmployeeId == employee.EmployeeId)
+                .Select(employee => employee.Department.DepartmentName)
+                .ToList(), 
+            DepartmentId = DbSet<DepartmentEmployee>()
+                .Where(departmentEmployee => departmentEmployee.EmployeeId == employee.EmployeeId)
+                .Select(employee => employee.Department.DepartmentId)
+                .ToList() 
+        }
+    )'
+2023-05-04 11:02:35.3102|WARN|Microsoft.EntityFrameworkCore.Query|Compiling a query which loads related collections for more than one collection navigation either via 'Include' or through projection but no 'QuerySplittingBehavior' has been configured. By default Entity Framework will use 'QuerySplittingBehavior.SingleQuery' which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'
+2023-05-04 11:02:35.3416|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<EmployeeVMModel>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT e.EmployeeId, e.EmployeeName, e.EmployeeAddress, e.EmployeeSalary, d0.DesignationName, e.DesignationId, d.EmployeeId, d.DepartmentId, d0.DesignationId, t.DepartmentName, t.EmployeeId, t.DepartmentId, t.DepartmentId0, t0.DepartmentId, t0.EmployeeId, t0.DepartmentId0
+        FROM Employees AS e
+        INNER JOIN DepartmentEmployees AS d ON e.EmployeeId == d.EmployeeId
+        INNER JOIN Designations AS d0 ON e.DesignationId == d0.DesignationId
+        LEFT JOIN Projection Mapping:
+        (
+            SELECT d2.DepartmentName, d1.EmployeeId, d1.DepartmentId, d2.DepartmentId AS DepartmentId0
+            FROM DepartmentEmployees AS d1
+            INNER JOIN Departments AS d2 ON d1.DepartmentId == d2.DepartmentId
+        ) AS t ON e.EmployeeId == t.EmployeeId
+        LEFT JOIN Projection Mapping:
+        (
+            SELECT d4.DepartmentId, d3.EmployeeId, d3.DepartmentId AS DepartmentId0
+            FROM DepartmentEmployees AS d3
+            INNER JOIN Departments AS d4 ON d3.DepartmentId == d4.DepartmentId
+        ) AS t0 ON e.EmployeeId == t0.EmployeeId
+        ORDER BY e.EmployeeId ASC, d.EmployeeId ASC, d.DepartmentId ASC, d0.DesignationId ASC, t.EmployeeId ASC, t.DepartmentId ASC, t.DepartmentId0 ASC, t0.EmployeeId ASC, t0.DepartmentId0 ASC, t0.DepartmentId ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, EmployeeVMModel>, 
+    WEBAPI_Dep_Dsg_Employee.Data.ApplicationDbContext, 
+    False, 
+    False
+)'
+2023-05-04 11:02:35.3611|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-05-04 11:02:35.3930|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (30ms).
+2023-05-04 11:02:35.3949|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 11:02:35.5842|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 11:02:35.5842|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[EmployeeName], [e].[EmployeeAddress], [e].[EmployeeSalary], [d0].[DesignationName], [e].[DesignationId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[DepartmentName], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[DepartmentId], [t0].[EmployeeId], [t0].[DepartmentId0]
+FROM [Employees] AS [e]
+INNER JOIN [DepartmentEmployees] AS [d] ON [e].[EmployeeId] = [d].[EmployeeId]
+INNER JOIN [Designations] AS [d0] ON [e].[DesignationId] = [d0].[DesignationId]
+LEFT JOIN (
+    SELECT [d2].[DepartmentName], [d1].[EmployeeId], [d1].[DepartmentId], [d2].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d1]
+    INNER JOIN [Departments] AS [d2] ON [d1].[DepartmentId] = [d2].[DepartmentId]
+) AS [t] ON [e].[EmployeeId] = [t].[EmployeeId]
+LEFT JOIN (
+    SELECT [d4].[DepartmentId], [d3].[EmployeeId], [d3].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d3]
+    INNER JOIN [Departments] AS [d4] ON [d3].[DepartmentId] = [d4].[DepartmentId]
+) AS [t0] ON [e].[EmployeeId] = [t0].[EmployeeId]
+ORDER BY [e].[EmployeeId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[EmployeeId], [t0].[DepartmentId0], [t0].[DepartmentId]
+2023-05-04 11:02:35.6194|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[EmployeeName], [e].[EmployeeAddress], [e].[EmployeeSalary], [d0].[DesignationName], [e].[DesignationId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[DepartmentName], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[DepartmentId], [t0].[EmployeeId], [t0].[DepartmentId0]
+FROM [Employees] AS [e]
+INNER JOIN [DepartmentEmployees] AS [d] ON [e].[EmployeeId] = [d].[EmployeeId]
+INNER JOIN [Designations] AS [d0] ON [e].[DesignationId] = [d0].[DesignationId]
+LEFT JOIN (
+    SELECT [d2].[DepartmentName], [d1].[EmployeeId], [d1].[DepartmentId], [d2].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d1]
+    INNER JOIN [Departments] AS [d2] ON [d1].[DepartmentId] = [d2].[DepartmentId]
+) AS [t] ON [e].[EmployeeId] = [t].[EmployeeId]
+LEFT JOIN (
+    SELECT [d4].[DepartmentId], [d3].[EmployeeId], [d3].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d3]
+    INNER JOIN [Departments] AS [d4] ON [d3].[DepartmentId] = [d4].[DepartmentId]
+) AS [t0] ON [e].[EmployeeId] = [t0].[EmployeeId]
+ORDER BY [e].[EmployeeId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[EmployeeId], [t0].[DepartmentId0], [t0].[DepartmentId]
+2023-05-04 11:02:36.7588|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:02:41.1294|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:02:41.8594|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:02:42.6794|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:02:43.3694|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:02:43.5615|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:02:43.7498|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:02:43.9073|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:02:44.1067|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:02:44.3592|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:02:44.5499|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:02:44.7674|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:02:49.6988|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:02:49.6988|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:02:49.7076|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:02:49.7076|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:02:49.7076|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:02:49.7076|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:02:49.7076|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2023-05-04 11:02:49.7076|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 11:02:49.7228|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 11:02:49.7228|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 20380.5734ms.
+2023-05-04 11:02:49.7228|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 11:02:49.7228|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 11:02:49.7228|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 11:02:49.7228|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 11:02:49.7228|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2023-05-04 11:02:49.7228|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 11:02:49.7228|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 11:02:49.7228|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-05-04 11:02:49.7228|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-05-04 11:02:49.7228|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2023-05-04 11:02:49.7228|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-05-04 11:02:49.7228|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2023-05-04 11:02:49.7228|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-05-04 11:02:49.7228|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Dep_Dsg_Employee.Models.EmployeeVMModel, WEBAPI_Dep_Dsg_Employee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-04 11:02:49.7228|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-05-04 11:02:49.7228|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 11:02:49.7228|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 11:02:49.7228|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee) in 20567.1958ms
+2023-05-04 11:02:49.7228|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)'
+2023-05-04 11:02:49.7402|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'ApplicationDbContext' disposed.
+2023-05-04 11:02:49.7402|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18086456104325218420" disconnecting.
+2023-05-04 11:02:49.7402|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/api/employee - - - 200 - application/json;+charset=utf-8 20855.1090ms
+2023-05-04 11:10:39.2099|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting starting
+2023-05-04 11:10:39.4379|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-04 11:10:39.4451|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-01f11bd1-cd21-44f3-8ab6-79b45bf34a87.xml'.
+2023-05-04 11:10:39.4451|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-816f2125-9f44-4d66-822a-d6d46553a992.xml'.
+2023-05-04 11:10:39.4451|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {01f11bd1-cd21-44f3-8ab6-79b45bf34a87}.
+2023-05-04 11:10:39.4451|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {816f2125-9f44-4d66-822a-d6d46553a992}.
+2023-05-04 11:10:39.4629|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {816f2125-9f44-4d66-822a-d6d46553a992} with expiration date 2023-06-06 13:09:05Z as default key.
+2023-05-04 11:10:39.4876|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-04 11:10:39.4890|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-05-04 11:10:39.4890|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-04 11:10:39.4890|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-05-04 11:10:39.4890|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-05-04 11:10:39.4890|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {816f2125-9f44-4d66-822a-d6d46553a992} as the default key.
+2023-05-04 11:10:39.4890|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {816f2125-9f44-4d66-822a-d6d46553a992} was loaded during application startup.
+2023-05-04 11:10:39.4890|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting started
+2023-05-04 11:10:39.4890|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WEBAPI_Dep_Dsg_Employee
+2023-05-04 11:10:39.5397|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/index.html - -
+2023-05-04 11:10:39.5397|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-05-04 11:10:39.5397|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-04 11:10:39.6144|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "17942340924839297101" disconnecting.
+2023-05-04 11:10:39.6144|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/index.html - - - 200 - text/html;charset=utf-8 82.2544ms
+2023-05-04 11:10:39.6931|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - -
+2023-05-04 11:10:39.6931|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-04 11:10:39.7660|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686523426603060" disconnecting.
+2023-05-04 11:10:39.7660|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 72.9496ms
+2023-05-04 11:10:45.5634|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/api/employee - -
+2023-05-04 11:10:45.5634|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-04 11:10:45.5746|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-05-04 11:10:45.6484|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/employee'
+2023-05-04 11:10:45.6484|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)' with route pattern 'api/employee' is valid for the request path '/api/employee'
+2023-05-04 11:10:45.6484|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)'
+2023-05-04 11:10:45.8011|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2023-05-04 11:10:45.8011|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)'
+2023-05-04 11:10:45.8185|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-05-04 11:10:45.8508|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployee() on controller WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController (WEBAPI_Dep_Dsg_Employee).
+2023-05-04 11:10:45.8508|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2023-05-04 11:10:45.8508|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2023-05-04 11:10:45.8508|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-05-04 11:10:45.8508|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2023-05-04 11:10:45.8508|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-05-04 11:10:45.8508|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController (WEBAPI_Dep_Dsg_Employee)
+2023-05-04 11:10:45.9545|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-04 11:10:45.9689|WARN|Microsoft.EntityFrameworkCore.Infrastructure|'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-05-04 11:10:46.0382|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController (WEBAPI_Dep_Dsg_Employee)
+2023-05-04 11:10:46.0382|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2023-05-04 11:10:46.0382|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 11:10:46.0382|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 11:10:46.0382|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 11:10:46.0382|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 11:10:46.0382|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee) - Validation state: Valid
+2023-05-04 11:26:09.7895|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController|GetEmployee() Called
+2023-05-04 11:26:10.1433|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2023-05-04 11:26:10.1433|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2023-05-04 11:26:10.1433|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'EmployeeId'} was not created on entity type 'DepartmentEmployee' as the properties are already covered by the index {'EmployeeId', 'DepartmentId'}.
+2023-05-04 11:26:10.1967|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property '"Discriminator"."IdentityRole"' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-05-04 11:26:10.3013|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 5.0.17 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=WEBAPI_Dep_Dsg_Employee 
+2023-05-04 11:26:11.4383|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController|lINQ Executed
+2023-05-04 11:26:11.4800|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Employee>()
+    .Join(
+        inner: DbSet<DepartmentEmployee>(), 
+        outerKeySelector: employee => employee.EmployeeId, 
+        innerKeySelector: EmployeeDepartment => EmployeeDepartment.EmployeeId, 
+        resultSelector: (employee, EmployeeDepartment) => new EmployeeVMModel{ 
+            EmployeeId = employee.EmployeeId, 
+            EmployeeName = employee.EmployeeName, 
+            EmployeeAddress = employee.EmployeeAddress, 
+            EmployeeSalary = employee.EmployeeSalary, 
+            DesignationName = employee.Designation.DesignationName, 
+            DesignationId = employee.DesignationId, 
+            DepartmentName = DbSet<DepartmentEmployee>()
+                .Where(departmentEmployee => departmentEmployee.EmployeeId == employee.EmployeeId)
+                .Select(employee => employee.Department.DepartmentName)
+                .ToList(), 
+            DepartmentId = DbSet<DepartmentEmployee>()
+                .Where(departmentEmployee => departmentEmployee.EmployeeId == employee.EmployeeId)
+                .Select(employee => employee.Department.DepartmentId)
+                .ToList() 
+        }
+    )'
+2023-05-04 11:26:11.5987|WARN|Microsoft.EntityFrameworkCore.Query|Compiling a query which loads related collections for more than one collection navigation either via 'Include' or through projection but no 'QuerySplittingBehavior' has been configured. By default Entity Framework will use 'QuerySplittingBehavior.SingleQuery' which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'
+2023-05-04 11:26:11.6268|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<EmployeeVMModel>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT e.EmployeeId, e.EmployeeName, e.EmployeeAddress, e.EmployeeSalary, d0.DesignationName, e.DesignationId, d.EmployeeId, d.DepartmentId, d0.DesignationId, t.DepartmentName, t.EmployeeId, t.DepartmentId, t.DepartmentId0, t0.DepartmentId, t0.EmployeeId, t0.DepartmentId0
+        FROM Employees AS e
+        INNER JOIN DepartmentEmployees AS d ON e.EmployeeId == d.EmployeeId
+        INNER JOIN Designations AS d0 ON e.DesignationId == d0.DesignationId
+        LEFT JOIN Projection Mapping:
+        (
+            SELECT d2.DepartmentName, d1.EmployeeId, d1.DepartmentId, d2.DepartmentId AS DepartmentId0
+            FROM DepartmentEmployees AS d1
+            INNER JOIN Departments AS d2 ON d1.DepartmentId == d2.DepartmentId
+        ) AS t ON e.EmployeeId == t.EmployeeId
+        LEFT JOIN Projection Mapping:
+        (
+            SELECT d4.DepartmentId, d3.EmployeeId, d3.DepartmentId AS DepartmentId0
+            FROM DepartmentEmployees AS d3
+            INNER JOIN Departments AS d4 ON d3.DepartmentId == d4.DepartmentId
+        ) AS t0 ON e.EmployeeId == t0.EmployeeId
+        ORDER BY e.EmployeeId ASC, d.EmployeeId ASC, d.DepartmentId ASC, d0.DesignationId ASC, t.EmployeeId ASC, t.DepartmentId ASC, t.DepartmentId0 ASC, t0.EmployeeId ASC, t0.DepartmentId0 ASC, t0.DepartmentId ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, EmployeeVMModel>, 
+    WEBAPI_Dep_Dsg_Employee.Data.ApplicationDbContext, 
+    False, 
+    False
+)'
+2023-05-04 11:26:11.6465|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-05-04 11:26:11.6781|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (30ms).
+2023-05-04 11:26:11.6781|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 11:26:11.8657|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 11:26:11.8657|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[EmployeeName], [e].[EmployeeAddress], [e].[EmployeeSalary], [d0].[DesignationName], [e].[DesignationId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[DepartmentName], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[DepartmentId], [t0].[EmployeeId], [t0].[DepartmentId0]
+FROM [Employees] AS [e]
+INNER JOIN [DepartmentEmployees] AS [d] ON [e].[EmployeeId] = [d].[EmployeeId]
+INNER JOIN [Designations] AS [d0] ON [e].[DesignationId] = [d0].[DesignationId]
+LEFT JOIN (
+    SELECT [d2].[DepartmentName], [d1].[EmployeeId], [d1].[DepartmentId], [d2].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d1]
+    INNER JOIN [Departments] AS [d2] ON [d1].[DepartmentId] = [d2].[DepartmentId]
+) AS [t] ON [e].[EmployeeId] = [t].[EmployeeId]
+LEFT JOIN (
+    SELECT [d4].[DepartmentId], [d3].[EmployeeId], [d3].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d3]
+    INNER JOIN [Departments] AS [d4] ON [d3].[DepartmentId] = [d4].[DepartmentId]
+) AS [t0] ON [e].[EmployeeId] = [t0].[EmployeeId]
+ORDER BY [e].[EmployeeId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[EmployeeId], [t0].[DepartmentId0], [t0].[DepartmentId]
+2023-05-04 11:26:11.8994|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (31ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[EmployeeName], [e].[EmployeeAddress], [e].[EmployeeSalary], [d0].[DesignationName], [e].[DesignationId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[DepartmentName], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[DepartmentId], [t0].[EmployeeId], [t0].[DepartmentId0]
+FROM [Employees] AS [e]
+INNER JOIN [DepartmentEmployees] AS [d] ON [e].[EmployeeId] = [d].[EmployeeId]
+INNER JOIN [Designations] AS [d0] ON [e].[DesignationId] = [d0].[DesignationId]
+LEFT JOIN (
+    SELECT [d2].[DepartmentName], [d1].[EmployeeId], [d1].[DepartmentId], [d2].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d1]
+    INNER JOIN [Departments] AS [d2] ON [d1].[DepartmentId] = [d2].[DepartmentId]
+) AS [t] ON [e].[EmployeeId] = [t].[EmployeeId]
+LEFT JOIN (
+    SELECT [d4].[DepartmentId], [d3].[EmployeeId], [d3].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d3]
+    INNER JOIN [Departments] AS [d4] ON [d3].[DepartmentId] = [d4].[DepartmentId]
+) AS [t0] ON [e].[EmployeeId] = [t0].[EmployeeId]
+ORDER BY [e].[EmployeeId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[EmployeeId], [t0].[DepartmentId0], [t0].[DepartmentId]
+2023-05-04 11:26:11.9108|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:26:11.9108|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:26:11.9108|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:26:11.9108|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:26:11.9108|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:26:11.9108|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:26:11.9108|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:26:11.9108|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:26:11.9265|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:26:11.9265|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:26:11.9265|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:26:11.9265|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:26:11.9265|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:26:11.9265|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:26:11.9265|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:26:11.9265|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:26:11.9265|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:26:11.9433|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 11:26:11.9433|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2023-05-04 11:26:11.9433|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 11:26:11.9433|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 11:26:11.9433|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 925904.2779ms.
+2023-05-04 11:26:11.9433|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 11:26:11.9433|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 11:26:11.9433|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 11:26:11.9433|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 11:26:11.9433|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2023-05-04 11:26:11.9433|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 11:26:11.9433|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 11:26:11.9433|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-05-04 11:26:11.9433|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-05-04 11:26:11.9433|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2023-05-04 11:26:11.9433|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-05-04 11:26:11.9433|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2023-05-04 11:26:11.9433|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-05-04 11:26:11.9433|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Dep_Dsg_Employee.Models.EmployeeVMModel, WEBAPI_Dep_Dsg_Employee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-04 11:26:11.9647|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-05-04 11:26:11.9647|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 11:26:11.9647|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 11:26:11.9647|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee) in 926112.107ms
+2023-05-04 11:26:11.9647|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)'
+2023-05-04 11:26:11.9647|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "17942340954904068099" disconnecting.
+2023-05-04 11:26:11.9647|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'ApplicationDbContext' disposed.
+2023-05-04 11:26:11.9647|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/api/employee - - - 200 - application/json;+charset=utf-8 926408.1202ms
+2023-05-04 12:39:24.3478|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting starting
+2023-05-04 12:39:24.5519|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-04 12:39:24.5519|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-01f11bd1-cd21-44f3-8ab6-79b45bf34a87.xml'.
+2023-05-04 12:39:24.5519|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-816f2125-9f44-4d66-822a-d6d46553a992.xml'.
+2023-05-04 12:39:24.5610|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {01f11bd1-cd21-44f3-8ab6-79b45bf34a87}.
+2023-05-04 12:39:24.5610|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {816f2125-9f44-4d66-822a-d6d46553a992}.
+2023-05-04 12:39:24.5610|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {816f2125-9f44-4d66-822a-d6d46553a992} with expiration date 2023-06-06 13:09:05Z as default key.
+2023-05-04 12:39:24.5893|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-04 12:39:24.5906|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-05-04 12:39:24.5906|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-04 12:39:24.5906|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-05-04 12:39:24.5906|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-05-04 12:39:24.5906|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {816f2125-9f44-4d66-822a-d6d46553a992} as the default key.
+2023-05-04 12:39:24.5906|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {816f2125-9f44-4d66-822a-d6d46553a992} was loaded during application startup.
+2023-05-04 12:39:24.5906|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting started
+2023-05-04 12:39:24.5906|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WEBAPI_Dep_Dsg_Employee
+2023-05-04 12:39:24.6316|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/index.html - -
+2023-05-04 12:39:24.6316|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-05-04 12:39:24.6316|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-04 12:39:24.7016|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18014398540352061491" disconnecting.
+2023-05-04 12:39:24.7016|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/index.html - - - 200 - text/html;charset=utf-8 75.7024ms
+2023-05-04 12:39:24.7590|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - -
+2023-05-04 12:39:24.7590|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-04 12:39:24.8185|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686501951766576" disconnecting.
+2023-05-04 12:39:24.8185|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 59.5301ms
+2023-05-04 12:39:32.3500|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/api/employee - -
+2023-05-04 12:39:32.3500|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-04 12:39:32.3500|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-05-04 12:39:32.3829|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/employee'
+2023-05-04 12:39:32.3829|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)' with route pattern 'api/employee' is valid for the request path '/api/employee'
+2023-05-04 12:39:32.3829|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)'
+2023-05-04 12:39:32.4418|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2023-05-04 12:39:32.4418|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)'
+2023-05-04 12:39:32.4418|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-05-04 12:39:32.4559|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployee() on controller WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController (WEBAPI_Dep_Dsg_Employee).
+2023-05-04 12:39:32.4559|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2023-05-04 12:39:32.4559|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2023-05-04 12:39:32.4559|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-05-04 12:39:32.4559|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2023-05-04 12:39:32.4559|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-05-04 12:39:32.4559|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController (WEBAPI_Dep_Dsg_Employee)
+2023-05-04 12:39:32.4825|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-04 12:39:32.4825|WARN|Microsoft.EntityFrameworkCore.Infrastructure|'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-05-04 12:39:32.5064|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController (WEBAPI_Dep_Dsg_Employee)
+2023-05-04 12:39:32.5064|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2023-05-04 12:39:32.5064|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 12:39:32.5064|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 12:39:32.5064|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 12:39:32.5064|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 12:39:32.5064|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee) - Validation state: Valid
+2023-05-04 12:39:34.7090|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController|GetEmployee() Called
+2023-05-04 12:39:35.0308|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2023-05-04 12:39:35.0308|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2023-05-04 12:39:35.0308|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'EmployeeId'} was not created on entity type 'DepartmentEmployee' as the properties are already covered by the index {'EmployeeId', 'DepartmentId'}.
+2023-05-04 12:39:35.0920|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property '"Discriminator"."IdentityRole"' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-05-04 12:39:35.1935|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 5.0.17 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=WEBAPI_Dep_Dsg_Employee 
+2023-05-04 12:39:39.8076|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController|lINQ Executed
+2023-05-04 12:39:39.8514|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Employee>()
+    .Join(
+        inner: DbSet<DepartmentEmployee>(), 
+        outerKeySelector: employee => employee.EmployeeId, 
+        innerKeySelector: EmployeeDepartment => EmployeeDepartment.EmployeeId, 
+        resultSelector: (employee, EmployeeDepartment) => new EmployeeVMModel{ 
+            EmployeeId = employee.EmployeeId, 
+            EmployeeName = employee.EmployeeName, 
+            EmployeeAddress = employee.EmployeeAddress, 
+            EmployeeSalary = employee.EmployeeSalary, 
+            DesignationName = employee.Designation.DesignationName, 
+            DesignationId = employee.DesignationId, 
+            DepartmentName = DbSet<DepartmentEmployee>()
+                .Where(departmentEmployee => departmentEmployee.EmployeeId == employee.EmployeeId)
+                .Select(employee => employee.Department.DepartmentName)
+                .ToList(), 
+            DepartmentId = DbSet<DepartmentEmployee>()
+                .Where(departmentEmployee => departmentEmployee.EmployeeId == employee.EmployeeId)
+                .Select(employee => employee.Department.DepartmentId)
+                .ToList() 
+        }
+    )'
+2023-05-04 12:39:39.9668|WARN|Microsoft.EntityFrameworkCore.Query|Compiling a query which loads related collections for more than one collection navigation either via 'Include' or through projection but no 'QuerySplittingBehavior' has been configured. By default Entity Framework will use 'QuerySplittingBehavior.SingleQuery' which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'
+2023-05-04 12:39:39.9951|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<EmployeeVMModel>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT e.EmployeeId, e.EmployeeName, e.EmployeeAddress, e.EmployeeSalary, d0.DesignationName, e.DesignationId, d.EmployeeId, d.DepartmentId, d0.DesignationId, t.DepartmentName, t.EmployeeId, t.DepartmentId, t.DepartmentId0, t0.DepartmentId, t0.EmployeeId, t0.DepartmentId0
+        FROM Employees AS e
+        INNER JOIN DepartmentEmployees AS d ON e.EmployeeId == d.EmployeeId
+        INNER JOIN Designations AS d0 ON e.DesignationId == d0.DesignationId
+        LEFT JOIN Projection Mapping:
+        (
+            SELECT d2.DepartmentName, d1.EmployeeId, d1.DepartmentId, d2.DepartmentId AS DepartmentId0
+            FROM DepartmentEmployees AS d1
+            INNER JOIN Departments AS d2 ON d1.DepartmentId == d2.DepartmentId
+        ) AS t ON e.EmployeeId == t.EmployeeId
+        LEFT JOIN Projection Mapping:
+        (
+            SELECT d4.DepartmentId, d3.EmployeeId, d3.DepartmentId AS DepartmentId0
+            FROM DepartmentEmployees AS d3
+            INNER JOIN Departments AS d4 ON d3.DepartmentId == d4.DepartmentId
+        ) AS t0 ON e.EmployeeId == t0.EmployeeId
+        ORDER BY e.EmployeeId ASC, d.EmployeeId ASC, d.DepartmentId ASC, d0.DesignationId ASC, t.EmployeeId ASC, t.DepartmentId ASC, t.DepartmentId0 ASC, t0.EmployeeId ASC, t0.DepartmentId0 ASC, t0.DepartmentId ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, EmployeeVMModel>, 
+    WEBAPI_Dep_Dsg_Employee.Data.ApplicationDbContext, 
+    False, 
+    False
+)'
+2023-05-04 12:39:40.0133|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-05-04 12:39:40.0428|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (28ms).
+2023-05-04 12:39:40.0457|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 12:39:40.4027|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 12:39:40.4077|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[EmployeeName], [e].[EmployeeAddress], [e].[EmployeeSalary], [d0].[DesignationName], [e].[DesignationId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[DepartmentName], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[DepartmentId], [t0].[EmployeeId], [t0].[DepartmentId0]
+FROM [Employees] AS [e]
+INNER JOIN [DepartmentEmployees] AS [d] ON [e].[EmployeeId] = [d].[EmployeeId]
+INNER JOIN [Designations] AS [d0] ON [e].[DesignationId] = [d0].[DesignationId]
+LEFT JOIN (
+    SELECT [d2].[DepartmentName], [d1].[EmployeeId], [d1].[DepartmentId], [d2].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d1]
+    INNER JOIN [Departments] AS [d2] ON [d1].[DepartmentId] = [d2].[DepartmentId]
+) AS [t] ON [e].[EmployeeId] = [t].[EmployeeId]
+LEFT JOIN (
+    SELECT [d4].[DepartmentId], [d3].[EmployeeId], [d3].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d3]
+    INNER JOIN [Departments] AS [d4] ON [d3].[DepartmentId] = [d4].[DepartmentId]
+) AS [t0] ON [e].[EmployeeId] = [t0].[EmployeeId]
+ORDER BY [e].[EmployeeId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[EmployeeId], [t0].[DepartmentId0], [t0].[DepartmentId]
+2023-05-04 12:39:40.4430|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[EmployeeName], [e].[EmployeeAddress], [e].[EmployeeSalary], [d0].[DesignationName], [e].[DesignationId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[DepartmentName], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[DepartmentId], [t0].[EmployeeId], [t0].[DepartmentId0]
+FROM [Employees] AS [e]
+INNER JOIN [DepartmentEmployees] AS [d] ON [e].[EmployeeId] = [d].[EmployeeId]
+INNER JOIN [Designations] AS [d0] ON [e].[DesignationId] = [d0].[DesignationId]
+LEFT JOIN (
+    SELECT [d2].[DepartmentName], [d1].[EmployeeId], [d1].[DepartmentId], [d2].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d1]
+    INNER JOIN [Departments] AS [d2] ON [d1].[DepartmentId] = [d2].[DepartmentId]
+) AS [t] ON [e].[EmployeeId] = [t].[EmployeeId]
+LEFT JOIN (
+    SELECT [d4].[DepartmentId], [d3].[EmployeeId], [d3].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d3]
+    INNER JOIN [Departments] AS [d4] ON [d3].[DepartmentId] = [d4].[DepartmentId]
+) AS [t0] ON [e].[EmployeeId] = [t0].[EmployeeId]
+ORDER BY [e].[EmployeeId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[EmployeeId], [t0].[DepartmentId0], [t0].[DepartmentId]
+2023-05-04 12:39:40.4539|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:39:40.4539|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:39:40.4539|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:39:40.4539|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:39:40.4539|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:39:40.4539|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:39:40.4539|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:39:40.4656|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:39:40.4656|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:39:40.4656|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:39:40.4656|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:39:40.4656|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:39:40.4656|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:39:40.4656|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:39:40.4656|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:39:40.4656|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:39:40.4656|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:39:40.4833|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:39:40.4833|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2023-05-04 12:39:40.4833|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 12:39:40.4833|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 12:39:40.4833|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7984.1571ms.
+2023-05-04 12:39:40.4833|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 12:39:40.4833|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 12:39:40.4960|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 12:39:40.4960|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 12:39:40.4960|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2023-05-04 12:39:40.4960|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 12:39:40.4960|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 12:39:40.4960|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-05-04 12:39:40.4960|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-05-04 12:39:40.4960|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2023-05-04 12:39:40.4960|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-05-04 12:39:40.4960|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2023-05-04 12:39:40.4960|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-05-04 12:39:40.4960|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Dep_Dsg_Employee.Models.EmployeeVMModel, WEBAPI_Dep_Dsg_Employee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-04 12:39:40.4960|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-05-04 12:39:40.4960|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 12:39:40.4960|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 12:39:40.4960|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee) in 8050.6744ms
+2023-05-04 12:39:40.4960|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)'
+2023-05-04 12:39:40.4960|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "17942340916249362541" disconnecting.
+2023-05-04 12:39:40.4960|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'ApplicationDbContext' disposed.
+2023-05-04 12:39:40.5123|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/api/employee - - - 200 - application/json;+charset=utf-8 8162.3103ms
+2023-05-04 12:40:28.5680|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting starting
+2023-05-04 12:40:28.7708|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-04 12:40:28.7708|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-01f11bd1-cd21-44f3-8ab6-79b45bf34a87.xml'.
+2023-05-04 12:40:28.7790|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-816f2125-9f44-4d66-822a-d6d46553a992.xml'.
+2023-05-04 12:40:28.7790|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {01f11bd1-cd21-44f3-8ab6-79b45bf34a87}.
+2023-05-04 12:40:28.7790|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {816f2125-9f44-4d66-822a-d6d46553a992}.
+2023-05-04 12:40:28.7790|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {816f2125-9f44-4d66-822a-d6d46553a992} with expiration date 2023-06-06 13:09:05Z as default key.
+2023-05-04 12:40:28.8090|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-04 12:40:28.8090|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-05-04 12:40:28.8090|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-04 12:40:28.8090|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-05-04 12:40:28.8090|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-05-04 12:40:28.8090|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {816f2125-9f44-4d66-822a-d6d46553a992} as the default key.
+2023-05-04 12:40:28.8090|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {816f2125-9f44-4d66-822a-d6d46553a992} was loaded during application startup.
+2023-05-04 12:40:28.8090|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting started
+2023-05-04 12:40:28.8090|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WEBAPI_Dep_Dsg_Employee
+2023-05-04 12:40:28.8610|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/index.html - -
+2023-05-04 12:40:28.8610|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-05-04 12:40:28.8610|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-04 12:40:28.9351|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "17942340954904068105" disconnecting.
+2023-05-04 12:40:28.9351|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/index.html - - - 200 - text/html;charset=utf-8 77.1657ms
+2023-05-04 12:40:28.9956|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - -
+2023-05-04 12:40:28.9956|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-04 12:40:29.1109|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686501951766578" disconnecting.
+2023-05-04 12:40:29.1109|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.3986ms
+2023-05-04 12:40:42.6109|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/api/employee - -
+2023-05-04 12:40:42.6109|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-04 12:40:42.6109|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-05-04 12:40:42.6846|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/employee'
+2023-05-04 12:40:42.6846|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)' with route pattern 'api/employee' is valid for the request path '/api/employee'
+2023-05-04 12:40:42.6846|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)'
+2023-05-04 12:40:42.8197|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2023-05-04 12:40:42.8197|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)'
+2023-05-04 12:40:42.8344|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-05-04 12:40:42.8589|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployee() on controller WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController (WEBAPI_Dep_Dsg_Employee).
+2023-05-04 12:40:42.8589|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2023-05-04 12:40:42.8589|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2023-05-04 12:40:42.8589|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-05-04 12:40:42.8589|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2023-05-04 12:40:42.8589|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-05-04 12:40:42.8589|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController (WEBAPI_Dep_Dsg_Employee)
+2023-05-04 12:40:42.9327|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-04 12:40:42.9436|WARN|Microsoft.EntityFrameworkCore.Infrastructure|'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-05-04 12:40:42.9814|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController (WEBAPI_Dep_Dsg_Employee)
+2023-05-04 12:40:42.9814|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2023-05-04 12:40:42.9814|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 12:40:42.9814|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 12:40:42.9814|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 12:40:42.9814|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 12:40:42.9814|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee) - Validation state: Valid
+2023-05-04 12:41:03.0032|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController|GetEmployee() Called
+2023-05-04 12:41:03.3214|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2023-05-04 12:41:03.3214|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2023-05-04 12:41:03.3214|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'EmployeeId'} was not created on entity type 'DepartmentEmployee' as the properties are already covered by the index {'EmployeeId', 'DepartmentId'}.
+2023-05-04 12:41:03.3748|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property '"Discriminator"."IdentityRole"' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-05-04 12:41:03.4602|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 5.0.17 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=WEBAPI_Dep_Dsg_Employee 
+2023-05-04 12:41:05.5092|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController|lINQ Executed
+2023-05-04 12:41:05.5504|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Employee>()
+    .Join(
+        inner: DbSet<DepartmentEmployee>(), 
+        outerKeySelector: employee => employee.EmployeeId, 
+        innerKeySelector: EmployeeDepartment => EmployeeDepartment.EmployeeId, 
+        resultSelector: (employee, EmployeeDepartment) => new EmployeeVMModel{ 
+            EmployeeId = employee.EmployeeId, 
+            EmployeeName = employee.EmployeeName, 
+            EmployeeAddress = employee.EmployeeAddress, 
+            EmployeeSalary = employee.EmployeeSalary, 
+            DesignationName = employee.Designation.DesignationName, 
+            DesignationId = employee.DesignationId, 
+            DepartmentName = DbSet<DepartmentEmployee>()
+                .Where(departmentEmployee => departmentEmployee.EmployeeId == employee.EmployeeId)
+                .Select(employee => employee.Department.DepartmentName)
+                .ToList(), 
+            DepartmentId = DbSet<DepartmentEmployee>()
+                .Where(departmentEmployee => departmentEmployee.EmployeeId == employee.EmployeeId)
+                .Select(employee => employee.Department.DepartmentId)
+                .ToList() 
+        }
+    )'
+2023-05-04 12:41:05.6649|WARN|Microsoft.EntityFrameworkCore.Query|Compiling a query which loads related collections for more than one collection navigation either via 'Include' or through projection but no 'QuerySplittingBehavior' has been configured. By default Entity Framework will use 'QuerySplittingBehavior.SingleQuery' which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'
+2023-05-04 12:41:05.6916|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<EmployeeVMModel>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT e.EmployeeId, e.EmployeeName, e.EmployeeAddress, e.EmployeeSalary, d0.DesignationName, e.DesignationId, d.EmployeeId, d.DepartmentId, d0.DesignationId, t.DepartmentName, t.EmployeeId, t.DepartmentId, t.DepartmentId0, t0.DepartmentId, t0.EmployeeId, t0.DepartmentId0
+        FROM Employees AS e
+        INNER JOIN DepartmentEmployees AS d ON e.EmployeeId == d.EmployeeId
+        INNER JOIN Designations AS d0 ON e.DesignationId == d0.DesignationId
+        LEFT JOIN Projection Mapping:
+        (
+            SELECT d2.DepartmentName, d1.EmployeeId, d1.DepartmentId, d2.DepartmentId AS DepartmentId0
+            FROM DepartmentEmployees AS d1
+            INNER JOIN Departments AS d2 ON d1.DepartmentId == d2.DepartmentId
+        ) AS t ON e.EmployeeId == t.EmployeeId
+        LEFT JOIN Projection Mapping:
+        (
+            SELECT d4.DepartmentId, d3.EmployeeId, d3.DepartmentId AS DepartmentId0
+            FROM DepartmentEmployees AS d3
+            INNER JOIN Departments AS d4 ON d3.DepartmentId == d4.DepartmentId
+        ) AS t0 ON e.EmployeeId == t0.EmployeeId
+        ORDER BY e.EmployeeId ASC, d.EmployeeId ASC, d.DepartmentId ASC, d0.DesignationId ASC, t.EmployeeId ASC, t.DepartmentId ASC, t.DepartmentId0 ASC, t0.EmployeeId ASC, t0.DepartmentId0 ASC, t0.DepartmentId ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, EmployeeVMModel>, 
+    WEBAPI_Dep_Dsg_Employee.Data.ApplicationDbContext, 
+    False, 
+    False
+)'
+2023-05-04 12:41:05.7087|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-05-04 12:41:05.7453|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (34ms).
+2023-05-04 12:41:05.7477|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 12:41:05.9406|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 12:41:05.9406|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[EmployeeName], [e].[EmployeeAddress], [e].[EmployeeSalary], [d0].[DesignationName], [e].[DesignationId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[DepartmentName], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[DepartmentId], [t0].[EmployeeId], [t0].[DepartmentId0]
+FROM [Employees] AS [e]
+INNER JOIN [DepartmentEmployees] AS [d] ON [e].[EmployeeId] = [d].[EmployeeId]
+INNER JOIN [Designations] AS [d0] ON [e].[DesignationId] = [d0].[DesignationId]
+LEFT JOIN (
+    SELECT [d2].[DepartmentName], [d1].[EmployeeId], [d1].[DepartmentId], [d2].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d1]
+    INNER JOIN [Departments] AS [d2] ON [d1].[DepartmentId] = [d2].[DepartmentId]
+) AS [t] ON [e].[EmployeeId] = [t].[EmployeeId]
+LEFT JOIN (
+    SELECT [d4].[DepartmentId], [d3].[EmployeeId], [d3].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d3]
+    INNER JOIN [Departments] AS [d4] ON [d3].[DepartmentId] = [d4].[DepartmentId]
+) AS [t0] ON [e].[EmployeeId] = [t0].[EmployeeId]
+ORDER BY [e].[EmployeeId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[EmployeeId], [t0].[DepartmentId0], [t0].[DepartmentId]
+2023-05-04 12:41:05.9831|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (39ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[EmployeeName], [e].[EmployeeAddress], [e].[EmployeeSalary], [d0].[DesignationName], [e].[DesignationId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[DepartmentName], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[DepartmentId], [t0].[EmployeeId], [t0].[DepartmentId0]
+FROM [Employees] AS [e]
+INNER JOIN [DepartmentEmployees] AS [d] ON [e].[EmployeeId] = [d].[EmployeeId]
+INNER JOIN [Designations] AS [d0] ON [e].[DesignationId] = [d0].[DesignationId]
+LEFT JOIN (
+    SELECT [d2].[DepartmentName], [d1].[EmployeeId], [d1].[DepartmentId], [d2].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d1]
+    INNER JOIN [Departments] AS [d2] ON [d1].[DepartmentId] = [d2].[DepartmentId]
+) AS [t] ON [e].[EmployeeId] = [t].[EmployeeId]
+LEFT JOIN (
+    SELECT [d4].[DepartmentId], [d3].[EmployeeId], [d3].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d3]
+    INNER JOIN [Departments] AS [d4] ON [d3].[DepartmentId] = [d4].[DepartmentId]
+) AS [t0] ON [e].[EmployeeId] = [t0].[EmployeeId]
+ORDER BY [e].[EmployeeId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[EmployeeId], [t0].[DepartmentId0], [t0].[DepartmentId]
+2023-05-04 12:41:05.9831|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:41:05.9964|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:41:05.9964|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:41:05.9964|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:41:05.9964|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:41:05.9964|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:41:05.9964|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:41:05.9964|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:41:05.9964|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:41:05.9964|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:41:06.0125|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:41:06.0125|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:41:06.0125|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:41:06.0125|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:41:06.0125|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:41:06.0125|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:41:06.0125|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:41:06.0125|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 12:41:06.0125|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2023-05-04 12:41:06.0278|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 12:41:06.0278|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 12:41:06.0278|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 23043.522ms.
+2023-05-04 12:41:06.0278|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 12:41:06.0278|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 12:41:06.0278|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 12:41:06.0278|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 12:41:06.0278|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2023-05-04 12:41:06.0278|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 12:41:06.0278|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 12:41:06.0278|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-05-04 12:41:06.0278|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-05-04 12:41:06.0278|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2023-05-04 12:41:06.0278|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-05-04 12:41:06.0278|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2023-05-04 12:41:06.0278|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-05-04 12:41:06.0278|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Dep_Dsg_Employee.Models.EmployeeVMModel, WEBAPI_Dep_Dsg_Employee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-04 12:41:06.0278|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-05-04 12:41:06.0278|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 12:41:06.0278|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 12:41:06.0446|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee) in 23180.3476ms
+2023-05-04 12:41:06.0446|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)'
+2023-05-04 12:41:06.0446|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686501951766580" disconnecting.
+2023-05-04 12:41:06.0446|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'ApplicationDbContext' disposed.
+2023-05-04 12:41:06.0446|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/api/employee - - - 200 - application/json;+charset=utf-8 23436.3227ms
+2023-05-04 14:01:34.4259|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting starting
+2023-05-04 14:01:34.6183|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-04 14:01:34.6229|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-01f11bd1-cd21-44f3-8ab6-79b45bf34a87.xml'.
+2023-05-04 14:01:34.6229|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-816f2125-9f44-4d66-822a-d6d46553a992.xml'.
+2023-05-04 14:01:34.6229|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {01f11bd1-cd21-44f3-8ab6-79b45bf34a87}.
+2023-05-04 14:01:34.6229|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {816f2125-9f44-4d66-822a-d6d46553a992}.
+2023-05-04 14:01:34.6229|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {816f2125-9f44-4d66-822a-d6d46553a992} with expiration date 2023-06-06 13:09:05Z as default key.
+2023-05-04 14:01:34.6528|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-04 14:01:34.6541|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-05-04 14:01:34.6541|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-04 14:01:34.6541|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-05-04 14:01:34.6541|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-05-04 14:01:34.6541|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {816f2125-9f44-4d66-822a-d6d46553a992} as the default key.
+2023-05-04 14:01:34.6541|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {816f2125-9f44-4d66-822a-d6d46553a992} was loaded during application startup.
+2023-05-04 14:01:34.6541|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting started
+2023-05-04 14:01:34.6541|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WEBAPI_Dep_Dsg_Employee
+2023-05-04 14:01:34.7007|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/index.html - -
+2023-05-04 14:01:34.7007|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-05-04 14:01:34.7007|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-04 14:01:34.7703|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "17942340942019166271" disconnecting.
+2023-05-04 14:01:34.7703|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/index.html - - - 200 - text/html;charset=utf-8 73.7802ms
+2023-05-04 14:01:34.8566|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - -
+2023-05-04 14:01:34.8566|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-04 14:01:34.9249|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686480476930103" disconnecting.
+2023-05-04 14:01:34.9249|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 68.5629ms
+2023-05-04 18:28:55.4153|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting starting
+2023-05-04 18:28:55.6353|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-04 18:28:55.6405|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-01f11bd1-cd21-44f3-8ab6-79b45bf34a87.xml'.
+2023-05-04 18:28:55.6405|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\arite\AppData\Local\ASP.NET\DataProtection-Keys\key-816f2125-9f44-4d66-822a-d6d46553a992.xml'.
+2023-05-04 18:28:55.6405|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {01f11bd1-cd21-44f3-8ab6-79b45bf34a87}.
+2023-05-04 18:28:55.6405|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {816f2125-9f44-4d66-822a-d6d46553a992}.
+2023-05-04 18:28:55.6538|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {816f2125-9f44-4d66-822a-d6d46553a992} with expiration date 2023-06-06 13:09:05Z as default key.
+2023-05-04 18:28:55.6808|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-04 18:28:55.6808|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-05-04 18:28:55.6843|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-04 18:28:55.6843|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-05-04 18:28:55.6843|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-05-04 18:28:55.6843|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {816f2125-9f44-4d66-822a-d6d46553a992} as the default key.
+2023-05-04 18:28:55.6843|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {816f2125-9f44-4d66-822a-d6d46553a992} was loaded during application startup.
+2023-05-04 18:28:55.6843|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting started
+2023-05-04 18:28:55.6843|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WEBAPI_Dep_Dsg_Employee
+2023-05-04 18:28:55.7356|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/index.html - -
+2023-05-04 18:28:55.7356|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-05-04 18:28:55.7356|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-04 18:28:55.8203|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "17942340942019166283" disconnecting.
+2023-05-04 18:28:55.8203|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/index.html - - - 200 - text/html;charset=utf-8 88.3866ms
+2023-05-04 18:28:56.0295|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - -
+2023-05-04 18:28:56.0295|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-04 18:28:56.1378|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18158513728427917328" disconnecting.
+2023-05-04 18:28:56.1378|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 108.4545ms
+2023-05-04 18:30:08.7507|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44386/api/employee - -
+2023-05-04 18:30:08.7507|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2023-05-04 18:30:08.7507|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-05-04 18:30:08.8456|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/employee'
+2023-05-04 18:30:08.8456|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)' with route pattern 'api/employee' is valid for the request path '/api/employee'
+2023-05-04 18:30:08.8456|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)'
+2023-05-04 18:30:08.9891|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2023-05-04 18:30:08.9891|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)'
+2023-05-04 18:30:09.0064|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-05-04 18:30:09.0383|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployee() on controller WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController (WEBAPI_Dep_Dsg_Employee).
+2023-05-04 18:30:09.0383|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2023-05-04 18:30:09.0383|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2023-05-04 18:30:09.0383|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-05-04 18:30:09.0383|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2023-05-04 18:30:09.0383|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-05-04 18:30:09.0383|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController (WEBAPI_Dep_Dsg_Employee)
+2023-05-04 18:30:09.1470|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-04 18:30:09.1671|WARN|Microsoft.EntityFrameworkCore.Infrastructure|'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-05-04 18:30:09.2448|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController (WEBAPI_Dep_Dsg_Employee)
+2023-05-04 18:30:09.2448|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2023-05-04 18:30:09.2448|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 18:30:09.2472|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 18:30:09.2472|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 18:30:09.2472|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 18:30:09.2472|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee) - Validation state: Valid
+2023-05-04 18:30:13.2547|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController|GetEmployee() Called
+2023-05-04 18:30:14.3829|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2023-05-04 18:30:14.3829|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2023-05-04 18:30:14.3829|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'EmployeeId'} was not created on entity type 'DepartmentEmployee' as the properties are already covered by the index {'EmployeeId', 'DepartmentId'}.
+2023-05-04 18:30:14.4891|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property '"Discriminator"."IdentityRole"' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-05-04 18:30:14.6029|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 5.0.17 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=WEBAPI_Dep_Dsg_Employee 
+2023-05-04 18:30:16.0013|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController|lINQ Executed
+2023-05-04 18:30:16.0653|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Employee>()
+    .Join(
+        inner: DbSet<DepartmentEmployee>(), 
+        outerKeySelector: employee => employee.EmployeeId, 
+        innerKeySelector: EmployeeDepartment => EmployeeDepartment.EmployeeId, 
+        resultSelector: (employee, EmployeeDepartment) => new EmployeeVMModel{ 
+            EmployeeId = employee.EmployeeId, 
+            EmployeeName = employee.EmployeeName, 
+            EmployeeAddress = employee.EmployeeAddress, 
+            EmployeeSalary = employee.EmployeeSalary, 
+            DesignationName = employee.Designation.DesignationName, 
+            DesignationId = employee.DesignationId, 
+            DepartmentName = DbSet<DepartmentEmployee>()
+                .Where(departmentEmployee => departmentEmployee.EmployeeId == employee.EmployeeId)
+                .Select(employee => employee.Department.DepartmentName)
+                .ToList(), 
+            DepartmentId = DbSet<DepartmentEmployee>()
+                .Where(departmentEmployee => departmentEmployee.EmployeeId == employee.EmployeeId)
+                .Select(employee => employee.Department.DepartmentId)
+                .ToList() 
+        }
+    )'
+2023-05-04 18:30:16.1997|WARN|Microsoft.EntityFrameworkCore.Query|Compiling a query which loads related collections for more than one collection navigation either via 'Include' or through projection but no 'QuerySplittingBehavior' has been configured. By default Entity Framework will use 'QuerySplittingBehavior.SingleQuery' which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'
+2023-05-04 18:30:16.2339|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<EmployeeVMModel>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT e.EmployeeId, e.EmployeeName, e.EmployeeAddress, e.EmployeeSalary, d0.DesignationName, e.DesignationId, d.EmployeeId, d.DepartmentId, d0.DesignationId, t.DepartmentName, t.EmployeeId, t.DepartmentId, t.DepartmentId0, t0.DepartmentId, t0.EmployeeId, t0.DepartmentId0
+        FROM Employees AS e
+        INNER JOIN DepartmentEmployees AS d ON e.EmployeeId == d.EmployeeId
+        INNER JOIN Designations AS d0 ON e.DesignationId == d0.DesignationId
+        LEFT JOIN Projection Mapping:
+        (
+            SELECT d2.DepartmentName, d1.EmployeeId, d1.DepartmentId, d2.DepartmentId AS DepartmentId0
+            FROM DepartmentEmployees AS d1
+            INNER JOIN Departments AS d2 ON d1.DepartmentId == d2.DepartmentId
+        ) AS t ON e.EmployeeId == t.EmployeeId
+        LEFT JOIN Projection Mapping:
+        (
+            SELECT d4.DepartmentId, d3.EmployeeId, d3.DepartmentId AS DepartmentId0
+            FROM DepartmentEmployees AS d3
+            INNER JOIN Departments AS d4 ON d3.DepartmentId == d4.DepartmentId
+        ) AS t0 ON e.EmployeeId == t0.EmployeeId
+        ORDER BY e.EmployeeId ASC, d.EmployeeId ASC, d.DepartmentId ASC, d0.DesignationId ASC, t.EmployeeId ASC, t.DepartmentId ASC, t.DepartmentId0 ASC, t0.EmployeeId ASC, t0.DepartmentId0 ASC, t0.DepartmentId ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, EmployeeVMModel>, 
+    WEBAPI_Dep_Dsg_Employee.Data.ApplicationDbContext, 
+    False, 
+    False
+)'
+2023-05-04 18:30:16.2520|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-05-04 18:30:16.2902|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (34ms).
+2023-05-04 18:30:16.2949|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 18:30:16.5225|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 18:30:16.5225|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[EmployeeName], [e].[EmployeeAddress], [e].[EmployeeSalary], [d0].[DesignationName], [e].[DesignationId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[DepartmentName], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[DepartmentId], [t0].[EmployeeId], [t0].[DepartmentId0]
+FROM [Employees] AS [e]
+INNER JOIN [DepartmentEmployees] AS [d] ON [e].[EmployeeId] = [d].[EmployeeId]
+INNER JOIN [Designations] AS [d0] ON [e].[DesignationId] = [d0].[DesignationId]
+LEFT JOIN (
+    SELECT [d2].[DepartmentName], [d1].[EmployeeId], [d1].[DepartmentId], [d2].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d1]
+    INNER JOIN [Departments] AS [d2] ON [d1].[DepartmentId] = [d2].[DepartmentId]
+) AS [t] ON [e].[EmployeeId] = [t].[EmployeeId]
+LEFT JOIN (
+    SELECT [d4].[DepartmentId], [d3].[EmployeeId], [d3].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d3]
+    INNER JOIN [Departments] AS [d4] ON [d3].[DepartmentId] = [d4].[DepartmentId]
+) AS [t0] ON [e].[EmployeeId] = [t0].[EmployeeId]
+ORDER BY [e].[EmployeeId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[EmployeeId], [t0].[DepartmentId0], [t0].[DepartmentId]
+2023-05-04 18:30:16.5700|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (43ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[EmployeeName], [e].[EmployeeAddress], [e].[EmployeeSalary], [d0].[DesignationName], [e].[DesignationId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[DepartmentName], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[DepartmentId], [t0].[EmployeeId], [t0].[DepartmentId0]
+FROM [Employees] AS [e]
+INNER JOIN [DepartmentEmployees] AS [d] ON [e].[EmployeeId] = [d].[EmployeeId]
+INNER JOIN [Designations] AS [d0] ON [e].[DesignationId] = [d0].[DesignationId]
+LEFT JOIN (
+    SELECT [d2].[DepartmentName], [d1].[EmployeeId], [d1].[DepartmentId], [d2].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d1]
+    INNER JOIN [Departments] AS [d2] ON [d1].[DepartmentId] = [d2].[DepartmentId]
+) AS [t] ON [e].[EmployeeId] = [t].[EmployeeId]
+LEFT JOIN (
+    SELECT [d4].[DepartmentId], [d3].[EmployeeId], [d3].[DepartmentId] AS [DepartmentId0]
+    FROM [DepartmentEmployees] AS [d3]
+    INNER JOIN [Departments] AS [d4] ON [d3].[DepartmentId] = [d4].[DepartmentId]
+) AS [t0] ON [e].[EmployeeId] = [t0].[EmployeeId]
+ORDER BY [e].[EmployeeId], [d].[EmployeeId], [d].[DepartmentId], [d0].[DesignationId], [t].[EmployeeId], [t].[DepartmentId], [t].[DepartmentId0], [t0].[EmployeeId], [t0].[DepartmentId0], [t0].[DepartmentId]
+2023-05-04 18:30:16.5842|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 18:30:16.5842|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 18:30:16.5842|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 18:30:16.5911|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 18:30:16.5911|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 18:30:16.5911|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 18:30:16.5911|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 18:30:16.5911|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 18:30:16.5911|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 18:30:16.5911|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 18:30:16.6071|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 18:30:16.6071|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 18:30:16.6071|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 18:30:16.6071|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 18:30:16.6071|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 18:30:16.6071|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 18:30:16.6229|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 18:30:16.6229|INFO|WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController| in Foreach
+2023-05-04 18:30:16.6229|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2023-05-04 18:30:16.6229|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 18:30:16.6397|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'db_emp_muldep_singdes' on server '.\SQLEXPRESS'.
+2023-05-04 18:30:16.6397|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7386.0713ms.
+2023-05-04 18:30:16.6397|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 18:30:16.6397|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-05-04 18:30:16.6397|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 18:30:16.6397|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-05-04 18:30:16.6397|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2023-05-04 18:30:16.6397|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 18:30:16.6397|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 18:30:16.6397|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-05-04 18:30:16.6397|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-05-04 18:30:16.6397|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2023-05-04 18:30:16.6397|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-05-04 18:30:16.6397|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2023-05-04 18:30:16.6397|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-05-04 18:30:16.6397|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Dep_Dsg_Employee.Models.EmployeeVMModel, WEBAPI_Dep_Dsg_Employee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-04 18:30:16.6565|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-05-04 18:30:16.6565|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 18:30:16.6565|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-05-04 18:30:16.6565|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee) in 7617.5127ms
+2023-05-04 18:30:16.6565|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WEBAPI_Dep_Dsg_Employee.Controllers.EmployeeController.GetEmployee (WEBAPI_Dep_Dsg_Employee)'
+2023-05-04 18:30:16.6565|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18158513728427917330" disconnecting.
+2023-05-04 18:30:16.6565|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'ApplicationDbContext' disposed.
+2023-05-04 18:30:16.6687|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44386/api/employee - - - 200 - application/json;+charset=utf-8 7917.9921ms

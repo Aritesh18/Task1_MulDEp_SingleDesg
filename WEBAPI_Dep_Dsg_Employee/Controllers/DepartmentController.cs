@@ -11,7 +11,7 @@ using WEBAPI_Dep_Dsg_Employee.Models;
 
 namespace WEBAPI_Dep_Dsg_Employee.Controllers
 {
-  [Authorize(Roles = SD.Role_Admin)]
+  //[Authorize(Roles = SD.Role_Admin)]
   [Route("api/department")]
     [ApiController]
     //This is my comment
@@ -47,7 +47,7 @@ namespace WEBAPI_Dep_Dsg_Employee.Controllers
             {
                 _context.Departments.Add(department); 
                 _context.SaveChanges();
-                return Ok();
+                return Ok(); 
             }
             return BadRequest();
         }
